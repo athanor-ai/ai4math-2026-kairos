@@ -101,23 +101,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Ignoring empty anchor on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)
-Underfull \hbox (badness 3792) in paragraph at lines 2--18
-\OT1/lmr/m/n/10 (+20) actor--critic con-ver-gence the-o-rem in its
-) (./sections/intro.tex
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 13.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/methods.tex
-
+) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [2]) (./sections/discussion.tex) (./main.bbl
+) (./sections/results.tex [2]
+
+LaTeX Warning: Reference `fig:per-animal' on page 3 undefined on input line 44.
+
+
+) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -151,8 +153,8 @@ Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
- \OT1/lmr/bx/n/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-v
-ised the-
+ \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
+vised the-
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
 \OT1/lmr/m/n/10 (+20) o-rem adds two summa-bil-ity hy-pothe-ses:
@@ -162,8 +164,8 @@ Underfull \hbox (badness 3601) in paragraph at lines 18--26
 itic in-cre-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
- \OT1/lmr/bx/n/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \O
-T1/lmr/m/n/10 (+20) ex-
+ \OT1/lmr/bx/sc/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \
+OT1/lmr/m/n/10 (+20) ex-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmr/m/n/10 (+20) its cleanly, zero \OT1/lmtt/m/n/10 sorry\OT1/lmr/m/n/10 (
@@ -183,9 +185,6 @@ n
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
 
@@ -193,42 +192,37 @@ put line 71.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_mutation_kill_rate.pdf
->] (./main.aux)
+[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_tang_per_animal.pdf> <
+./figures/fig_mutation_kill_rate.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
  )
-(see the transcript file for additional information)pdfTeX warning (dest): name
-{figure.caption.3} has been referenced but does not exist, replaced by a fixed 
-one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/
-fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 427929 bytes).
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
+/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (6 pages, 451892 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
@@ -339,16 +333,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Ignoring empty anchor on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)
-Underfull \hbox (badness 3792) in paragraph at lines 2--18
-\OT1/lmr/m/n/10 (+20) actor--critic con-ver-gence the-o-rem in its
-) (./sections/intro.tex
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 13.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/methods.tex
-
+) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
@@ -356,41 +347,23 @@ gents main-tain
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [2]) (./sections/discussion.tex) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
-articles /
-
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
-\OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
-ta at Zen-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-[]$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
-
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[3]) (./sections/appendix.tex
+) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
- \OT1/lmr/bx/n/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-v
-ised the-
+ \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
+vised the-
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
 \OT1/lmr/m/n/10 (+20) o-rem adds two summa-bil-ity hy-pothe-ses:
@@ -400,8 +373,8 @@ Underfull \hbox (badness 3601) in paragraph at lines 18--26
 itic in-cre-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
- \OT1/lmr/bx/n/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \O
-T1/lmr/m/n/10 (+20) ex-
+ \OT1/lmr/bx/sc/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \
+OT1/lmr/m/n/10 (+20) ex-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmr/m/n/10 (+20) its cleanly, zero \OT1/lmtt/m/n/10 sorry\OT1/lmr/m/n/10 (
@@ -421,9 +394,6 @@ n
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
 
@@ -431,17 +401,25 @@ put line 71.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_mutation_kill_rate.pdf
->] (./main.aux)
+[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_tang_per_animal.pdf> <
+./figures/fig_mutation_kill_rate.pdf>] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
 /dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
 r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/tex
-mf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
+/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
@@ -455,7 +433,7 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 427924 bytes).
+Output written on main.pdf (6 pages, 449898 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -560,16 +538,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Ignoring empty anchor on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)
-Underfull \hbox (badness 3792) in paragraph at lines 2--18
-\OT1/lmr/m/n/10 (+20) actor--critic con-ver-gence the-o-rem in its
-) (./sections/intro.tex
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 13.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/methods.tex
-
+) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
@@ -577,41 +552,23 @@ gents main-tain
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [2]) (./sections/discussion.tex) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
-articles /
-
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
-\OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
-ta at Zen-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-[]$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
-
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[3]) (./sections/appendix.tex
+) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
- \OT1/lmr/bx/n/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-v
-ised the-
+ \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
+vised the-
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
 \OT1/lmr/m/n/10 (+20) o-rem adds two summa-bil-ity hy-pothe-ses:
@@ -621,8 +578,8 @@ Underfull \hbox (badness 3601) in paragraph at lines 18--26
 itic in-cre-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
- \OT1/lmr/bx/n/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \O
-T1/lmr/m/n/10 (+20) ex-
+ \OT1/lmr/bx/sc/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \
+OT1/lmr/m/n/10 (+20) ex-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmr/m/n/10 (+20) its cleanly, zero \OT1/lmtt/m/n/10 sorry\OT1/lmr/m/n/10 (
@@ -642,9 +599,6 @@ n
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
 
@@ -652,8 +606,8 @@ put line 71.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_mutation_kill_rate.pdf
->] (./main.aux)
+[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_tang_per_animal.pdf> <
+./figures/fig_mutation_kill_rate.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -661,8 +615,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
 /dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
 r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/tex
-mf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
+/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
@@ -676,5 +630,5 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 427924 bytes).
+Output written on main.pdf (6 pages, 449898 bytes).
 Transcript written on main.log.

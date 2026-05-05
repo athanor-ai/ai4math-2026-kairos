@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  5 MAY 2026 21:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  5 MAY 2026 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,13 +676,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 3792) in paragraph at lines 2--18
-\OT1/lmr/m/n/10 (+20) actor--critic con-ver-gence the-o-rem in its
- []
-
 ) (./sections/intro.tex
-<figures/kairo_pipeline.pdf, id=36, 1192.455pt x 1123.79848pt>
+<figures/kairo_pipeline.pdf, id=40, 1192.455pt x 1123.79848pt>
 File: figures/kairo_pipeline.pdf Graphic file (type pdf)
 <use figures/kairo_pipeline.pdf>
 Package pdftex.def Info: figures/kairo_pipeline.pdf  used on input line 6.
@@ -692,11 +687,11 @@ Package pdftex.def Info: figures/kairo_pipeline.pdf  used on input line 6.
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 13.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-]) (./sections/methods.tex
+]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
@@ -708,66 +703,44 @@ Underfull \hbox (badness 1314) in paragraph at lines 38--42
  []
 
 ) (./sections/results.tex [2]
-<figures/fig_mutation_kill_rate.pdf, id=98, 888.13808pt x 457.93616pt>
+<figures/fig_tang_per_animal.pdf, id=92, 774.63965pt x 279.79718pt>
+File: figures/fig_tang_per_animal.pdf Graphic file (type pdf)
+<use figures/fig_tang_per_animal.pdf>
+Package pdftex.def Info: figures/fig_tang_per_animal.pdf  used on input line 48
+.
+(pdftex.def)             Requested size: 234.8775pt x 84.83635pt.
+<figures/fig_mutation_kill_rate.pdf, id=94, 888.13808pt x 457.93616pt>
 File: figures/fig_mutation_kill_rate.pdf Graphic file (type pdf)
 <use figures/fig_mutation_kill_rate.pdf>
 Package pdftex.def Info: figures/fig_mutation_kill_rate.pdf  used on input line
- 55.
+ 84.
 (pdftex.def)             Requested size: 234.8775pt x 121.10094pt.
 ) (./sections/discussion.tex) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
-articles /
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
-\OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
-ta at Zen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-\OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
-[]$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
  []
 
-[3]) (./sections/appendix.tex
+) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
- \OT1/lmr/bx/n/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-v
-ised the-
+ \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
+vised the-
  []
 
 
@@ -783,8 +756,8 @@ itic in-cre-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
- \OT1/lmr/bx/n/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \O
-T1/lmr/m/n/10 (+20) ex-
+ \OT1/lmr/bx/sc/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \
+OT1/lmr/m/n/10 (+20) ex-
  []
 
 
@@ -816,9 +789,6 @@ Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
 
@@ -829,7 +799,8 @@ Package natbib Warning: There were undefined citations.
 [4] [5 <./figures/kairo_pipeline.pdf>] [6
 
 
- <./figures/fig_mutation_kill_rate.pdf>] (./main.aux)
+ <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pdf>] (.
+/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -837,17 +808,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 33ADD51A6544EAC1230981ADEB82DE7D;1185.
  ) 
 Here is how much of TeX's memory you used:
- 15904 strings out of 480247
- 256920 string characters out of 5896152
- 596785 words of memory out of 5000000
- 33372 multiletter control sequences out of 15000+600000
- 532660 words of font info for 152 fonts, out of 8000000 for 9000
+ 15901 strings out of 480247
+ 257054 string characters out of 5896152
+ 596784 words of memory out of 5000000
+ 33378 multiletter control sequences out of 15000+600000
+ 535336 words of font info for 150 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,11n,77p,1001b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,77p,1001b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texm
+m/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texm
 f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/font
 s/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pf
@@ -861,10 +832,10 @@ xmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 427924 bytes).
+Output written on main.pdf (6 pages, 449898 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 34379 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 36432 words of extra memory for PDF output out of 42996 (max. 10000000)
 

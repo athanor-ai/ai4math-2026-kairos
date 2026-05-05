@@ -1,24 +1,9 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Greenstreet et~al.(2025)Greenstreet, Vergara, Johansson, Pati,
-  Schwarz, Lenzi, Geerts, Wisdom, Gubanova, Rollik, Kaur, Moskovitz, Cohen,
-  Thompson, Margrie, Clopath, and Stephenson-Jones]{greenstreet2025value}
-Greenstreet, F., Vergara, H.~M., Johansson, Y., Pati, S., Schwarz, L., Lenzi,
-  S.~C., Geerts, J.~P., Wisdom, M., Gubanova, A., Rollik, L.~B., Kaur, J.,
-  Moskovitz, T., Cohen, J., Thompson, E., Margrie, T.~W., Clopath, C., and
-  Stephenson-Jones, M.
-\newblock Dopaminergic action prediction errors serve as a value-free teaching
-  signal.
-\newblock \emph{Nature}, 643:\penalty0 1333--1342, 2025.
-\newblock \doi{10.1038/s41586-025-09008-9}.
-\newblock URL \url{https://www.nature.com/articles/s41586-025-09008-9}.
-\newblock Public data at Zenodo 10.5281/zenodo.15103778; code at
-  \url{https://github.com/SainsburyWellcomeCentre/SJLab_APE_paper}.
 
 \bibitem[Konda \& Tsitsiklis(2000)Konda and Tsitsiklis]{kondatsitsiklis2000}
 Konda, V.~R. and Tsitsiklis, J.~N.

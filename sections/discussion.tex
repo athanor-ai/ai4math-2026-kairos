@@ -1,16 +1,6 @@
 \section{Discussion}
 \label{sec:discussion}
 
-\paragraph{Self-evolving agents for science.}
-\sys{} is a concrete instance of the self-evolving scientific
-agent paradigm. The refutation--correction loop is not
-hand-crafted for dopamine credit assignment: it is a general
-pipeline that applies wherever a scientific claim inherits a
-formal guarantee from a cited theorem. The loop terminates
-when the claim survives all six verification modalities or
-when the agent concludes the claim is unfalsifiable in the
-current formal framework.
-
 \paragraph{The hypothesis-dropping pattern.}
 The actor--critic case is not isolated. Convergence theorems
 migrate from mathematics into applied science with hypotheses
@@ -20,17 +10,18 @@ models must satisfy to inherit convergence from this theorem.
 Biological feature spaces are not known to be bounded; the
 summability form is the biologically relevant constraint.
 
+\paragraph{The \sys{} fleet as a verification tool.}
+\sys{} is a multi-agent research fleet, not a single autonomous
+agent. The fleet surfaced the counterexample to I5a via
+\textsc{Aristotle}, the Kairos orchestrator proposed the corrected
+statement, and the Lean kernel verified it. The per-animal
+re-analysis and the pairwise distinguishability matrix were
+produced by the simulation and calibration agents. The pipeline
+is reusable: it applies wherever a scientific claim inherits a
+formal guarantee from a cited theorem.
+
 \paragraph{Limitations.}
 Three Robbins--Monro-style content goals carry \texttt{sorry}
 proofs pending Mathlib's stochastic-approximation framework.
-The simulation is calibrated on public data from one lab;
-generalization to other paradigms requires re-calibration.
-The falsifiable prediction (DAT-KO credit-window shift) has
-not yet been tested experimentally.
-
-\paragraph{Broader impact.}
-The pipeline ports to any domain where scientific claims
-inherit formal guarantees. Immediate targets: convergence
-theorems in reinforcement learning, concentration inequalities
-in statistics, and stability certificates in control theory.
-\sys{} is released open-source.
+The simulation is calibrated on public data from one lab.
+The DAT-KO prediction has not yet been tested experimentally.
