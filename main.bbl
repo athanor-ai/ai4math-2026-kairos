@@ -1,0 +1,58 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Greenstreet et~al.(2025)Greenstreet, Vergara, Johansson, Pati,
+  Schwarz, Lenzi, Geerts, Wisdom, Gubanova, Rollik, Kaur, Moskovitz, Cohen,
+  Thompson, Margrie, Clopath, and Stephenson-Jones]{greenstreet2025value}
+Greenstreet, F., Vergara, H.~M., Johansson, Y., Pati, S., Schwarz, L., Lenzi,
+  S.~C., Geerts, J.~P., Wisdom, M., Gubanova, A., Rollik, L.~B., Kaur, J.,
+  Moskovitz, T., Cohen, J., Thompson, E., Margrie, T.~W., Clopath, C., and
+  Stephenson-Jones, M.
+\newblock Dopaminergic action prediction errors serve as a value-free teaching
+  signal.
+\newblock \emph{Nature}, 643:\penalty0 1333--1342, 2025.
+\newblock \doi{10.1038/s41586-025-09008-9}.
+\newblock URL \url{https://www.nature.com/articles/s41586-025-09008-9}.
+\newblock Public data at Zenodo 10.5281/zenodo.15103778; code at
+  \url{https://github.com/SainsburyWellcomeCentre/SJLab_APE_paper}.
+
+\bibitem[Konda \& Tsitsiklis(2000)Konda and Tsitsiklis]{kondatsitsiklis2000}
+Konda, V.~R. and Tsitsiklis, J.~N.
+\newblock Actor-critic algorithms.
+\newblock \emph{Advances in Neural Information Processing Systems (NeurIPS)},
+  12:\penalty0 1008--1014, 2000.
+
+\bibitem[Markowitz et~al.(2023)]{markowitz2023spontaneous}
+Markowitz, J.~E. et~al.
+\newblock Spontaneous behaviour is structured by reinforcement without explicit
+  reward.
+\newblock \emph{Nature}, 614:\penalty0 108--117, 2023.
+\newblock Public data at Zenodo 10.5281/zenodo.7274803; code at
+  \url{https://github.com/dattalab/dopamine-reinforces-spontaneous-behavior}.
+
+\bibitem[Sousa et~al.(2025)Sousa, Bujalski, Cruz, Louie, McNamee, and
+  Paton]{sousa2025tmrl}
+Sousa, M., Bujalski, P., Cruz, B.~F., Louie, K., McNamee, D.~C., and Paton,
+  J.~J.
+\newblock A multidimensional distributional map of future reward in dopamine
+  neurons.
+\newblock \emph{Nature}, 642:\penalty0 691--699, 2025.
+\newblock \doi{10.1038/s41586-025-09089-6}.
+\newblock URL \url{https://www.nature.com/articles/s41586-025-09089-6}.
+\newblock Public data at Figshare article 28390151.
+
+\bibitem[Tang et~al.(2024)Tang, Paix{\~a}o, Carvalho, Silva, Klaus, and
+  Costa]{tang2024dynamic}
+Tang, J. C.~Y., Paix{\~a}o, V., Carvalho, F., Silva, A., Klaus, A., and Costa,
+  R.~M.
+\newblock Dynamic behaviour restructuring mediates dopamine-dependent credit
+  assignment.
+\newblock \emph{Nature}, 626:\penalty0 583--592, 2024.
+\newblock \doi{10.1038/s41586-023-06941-5}.
+\newblock URL \url{https://www.nature.com/articles/s41586-023-06941-5}.
+
+\end{thebibliography}

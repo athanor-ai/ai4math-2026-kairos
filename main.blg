@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: icml2026.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "harmonic2025aristotle"
+Warning--I didn't find a database entry for "deepseekprover2024v2"
+Warning--I didn't find a database entry for "hypothesis2013"
+You've used 5 entries,
+            2773 wiz_defined-function locations,
+            636 strings with 6635 characters,
+and the built_in function-call counts, 3573 in all, are:
+= -- 313
+> -- 311
+< -- 2
++ -- 104
+- -- 99
+* -- 339
+:= -- 585
+add.period$ -- 24
+call.type$ -- 5
+change.case$ -- 47
+chr.to.int$ -- 5
+cite$ -- 10
+duplicate$ -- 103
+empty$ -- 203
+format.name$ -- 107
+if$ -- 710
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 5
+newline$ -- 42
+num.names$ -- 20
+pop$ -- 75
+preamble$ -- 1
+purify$ -- 42
+quote$ -- 0
+skip$ -- 97
+stack$ -- 0
+substring$ -- 147
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 55
+warning$ -- 0
+while$ -- 25
+width$ -- 0
+write$ -- 90
+(There were 3 warnings)

@@ -1,0 +1,55 @@
+\section{The Kairos Pipeline}
+\label{sec:methods}
+
+\sys{} decomposes each scientific claim into six verification
+modalities and returns a per-layer verdict with a sandwich bound
+(Fig.~\ref{fig:pipeline}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_cross_paradigm.pdf}
+\caption{\textbf{Cross-paradigm distinguishability matrix.}
+Pairwise separation of the four candidate rules on the Tang et al.\
+paradigm. Green = distinguished; red = indistinguishable. Only
+actor--critic with eligibility traces reproduces all three
+behavioral observables.}
+\label{fig:pipeline}
+\end{figure}
+
+\paragraph{Verification modalities.}
+(1)~\textbf{Lean~4 kernel.} The claim is stated as a Lean~4
+theorem with a \texttt{sorry} placeholder. A drafter swarm
+(Aristotle \citep{harmonic2025aristotle}, DeepSeek-Prover-V2
+\citep{deepseekprover2024v2}, Claude Sonnet/Opus) proposes
+candidate proofs. Every candidate is kernel-checked and
+axiom-audited against $\{\texttt{propext},
+\texttt{Classical.choice}, \texttt{Quot.sound}\}$.
+(2)~\textbf{Property-based testing.} Hypothesis
+\citep{hypothesis2013} draws parameter tuples from the
+modelled regime and shrinks any falsifying sample.
+(3)~\textbf{Closed-loop simulation.} A packet-level simulator
+exercises the transition relation on a parameter grid.
+(4)~\textbf{Counterexample construction.} Z3 queries the
+negation of the claim for a model.
+(5)~\textbf{Blinded ablation.} Each rule is evaluated on a
+held-out behavioral observable not used in fitting.
+(6)~\textbf{Mutation testing.} Ten mutation operators are
+applied to the claim; each backend is scored on kill rate.
+
+\paragraph{Self-evolving loop.}
+When any modality returns a counterexample, \sys{} surfaces
+the witness to the drafter swarm with the instruction:
+``revise the theorem statement to exclude this witness while
+preserving the intended claim.'' The revised statement is
+re-submitted to all six modalities. The loop terminates when
+all modalities return \texttt{closed} or when a maximum
+iteration count is reached. In the actor--critic case, the
+loop ran four iterations before the corrected statement
+stabilized.
+
+\paragraph{Sandwich bound.}
+A claim is \emph{supported} when at least three modalities
+return \texttt{closed} and none returns \texttt{failed}. The
+sandwich bound $\tau_c \in [2.70, 2.82]$\,s is the interval
+between the empirical lower bound (simulation) and the analytic
+upper bound (Theorem~I2e).

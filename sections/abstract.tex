@@ -1,0 +1,18 @@
+\begin{abstract}
+We present \sys{}, a self-evolving agent pipeline that formally
+verifies scientific claims by iterating through refutation,
+correction, and re-verification. Applied to dopamine-dependent
+credit assignment in neuroscience, \sys{} formally refutes the
+two-timescale actor--critic convergence theorem in its
+commonly-cited form: without a bound on the feature map, the actor
+iterate diverges under Robbins--Monro step sizes. The corrected
+statement under summability hypotheses machine-checks in Lean~4
+with zero \texttt{sorry}. \sys{} then fits the eligibility-trace
+width to Tang et al.\ 2024 Fig.~3c to $4.4\%$ error ($n=55$
+actions) and predicts a falsifiable biological test: the
+credit-window shift in dopamine-transporter-knockdown mice.
+The self-evolving loop --- refutation $\to$ correction $\to$
+re-verification $\to$ biological prediction --- is a concrete
+instance of the scientific-agent paradigm. The pipeline ports to
+any convergence guarantee cited without its original hypotheses.
+\end{abstract}

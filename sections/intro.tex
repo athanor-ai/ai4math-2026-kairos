@@ -1,0 +1,71 @@
+\section{Introduction}
+\label{sec:intro}
+
+Scientific claims routinely inherit convergence guarantees from
+cited theorems without re-checking the original hypotheses. The
+two-timescale actor--critic convergence theorem of
+\citet{kondatsitsiklis2000} has been cited for twenty-six years as
+the algorithmic account of tonic-phasic dopamine dynamics. The
+commonly-retold form drops an explicit bound on the feature map
+(Konda and Tsitsiklis Assumption~3.1(a)). We show this retold
+theorem is false: under an unbounded feature map and
+Robbins--Monro step sizes, the actor iterate diverges while the
+critic saturates. A corrected statement under summability
+hypotheses machine-checks in Lean~4 with zero \texttt{sorry} and
+is strictly stronger than the original.
+
+This is not an isolated case. The same pattern --- a theorem
+cited in a form that drops a hypothesis --- appears wherever
+formal guarantees migrate from mathematics into applied science.
+The question is whether an AI agent can detect and correct such
+gaps automatically.
+
+\paragraph{Kairos.}
+We present \sys{}, a self-evolving verification agent that
+operates in a closed loop:
+\begin{enumerate}[leftmargin=1.5em,itemsep=0.1em]
+\item \textbf{Claim extraction.} Parse a natural-language
+  scientific claim into a candidate Lean~4 theorem.
+\item \textbf{Verification.} Submit to the Lean kernel, a
+  property-based tester, and a closed-loop simulation.
+\item \textbf{Refutation.} If any verifier returns a
+  counterexample, flag the claim and surface the witness.
+\item \textbf{Correction.} Revise the theorem statement to
+  accommodate the counterexample. Re-submit.
+\item \textbf{Prediction.} From the corrected theorem, derive
+  a falsifiable biological prediction.
+\end{enumerate}
+The loop is self-evolving: each refutation drives a hypothesis
+revision, and each revision is re-verified from scratch. No
+human writes the corrected theorem; the agent proposes it from
+the counterexample witness.
+
+\paragraph{Case study.}
+We apply \sys{} to four candidate dopamine credit-assignment
+rules from recent Nature papers
+\citep{tang2024dynamic, greenstreet2025value,
+markowitz2023spontaneous, sousa2025tmrl}. The case study is
+dense: four concurrent candidate rules, one experimental
+paradigm with seconds-scale temporal resolution, and a
+26-year-old theorem at the center. \sys{} formally refutes
+TD(0) as an account of the Tang et al.\ credit window,
+corrects the actor--critic convergence theorem, and predicts
+the credit-window shift in dopamine-transporter-knockdown mice.
+
+\paragraph{Contributions.}
+\begin{enumerate}[leftmargin=1.5em,itemsep=0.1em]
+\item \textbf{Formal refutation.} The first machine-checked
+  refutation of a candidate learning rule against an
+  experimental feature of a systems-neuroscience paradigm.
+\item \textbf{Corrected theorem.} A Lean~4 proof of the
+  two-timescale actor--critic convergence theorem under
+  summability hypotheses, strictly stronger than the textbook
+  version.
+\item \textbf{Self-evolving pipeline.} \sys{} as a reusable
+  agent architecture for formal verification of scientific
+  claims, with a concrete instance of the refutation--correction
+  loop.
+\item \textbf{Falsifiable prediction.} Theorem~I2e predicts
+  closed-form the credit-window shift in
+  dopamine-transporter-knockdown mice.
+\end{enumerate}
