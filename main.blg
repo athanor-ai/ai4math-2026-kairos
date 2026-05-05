@@ -3,13 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: icml2026.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "harmonic2025aristotle"
-Warning--I didn't find a database entry for "deepseekprover2024v2"
-Warning--I didn't find a database entry for "hypothesis2013"
 Warning--I didn't find a database entry for "stimberg2019brian2"
 You've used 5 entries,
             2773 wiz_defined-function locations,
-            637 strings with 6653 characters,
+            634 strings with 6598 characters,
 and the built_in function-call counts, 3573 in all, are:
 = -- 313
 > -- 311
@@ -48,4 +45,4 @@ warning$ -- 0
 while$ -- 25
 width$ -- 0
 write$ -- 90
-(There were 4 warnings)
+(There was 1 warning)

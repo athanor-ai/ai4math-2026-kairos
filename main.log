@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  5 MAY 2026 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  5 MAY 2026 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,72 +697,24 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 
 
 ]) (./sections/methods.tex
-<figures/fig_cross_paradigm.pdf, id=74, 721.94315pt x 502.5494pt>
-File: figures/fig_cross_paradigm.pdf Graphic file (type pdf)
-<use figures/fig_cross_paradigm.pdf>
-Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 10.
-
-(pdftex.def)             Requested size: 234.8775pt x 163.49532pt.
-
-Package natbib Warning: Citation `harmonic2025aristotle' on page 2 undefined on
- input line 22.
-
-
-Package natbib Warning: Citation `deepseekprover2024v2' on page 2 undefined on 
-input line 23.
-
-
-Package natbib Warning: Citation `hypothesis2013' on page 2 undefined on input 
-line 28.
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 20--38
- \OT1/lmr/bx/n/10 (+20) Ver-i-fi-ca-tion modal-i-ties.[] \OT1/lmr/m/n/10 (+20) 
-(1) \OT1/lmr/bx/n/10 (+20) Lean 4 ker-nel.
+Underfull \hbox (badness 3449) in paragraph at lines 22--26
+ \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
+gents main-tain
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) The claim is stated as a Lean 4 the-o-rem with
+Underfull \hbox (badness 1314) in paragraph at lines 38--42
+\OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
  []
 
-
-Underfull \hbox (badness 2326) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) a \OT1/lmtt/m/n/10 sorry \OT1/lmr/m/n/10 (+20) place-hold
-er. A drafter swarm (Aris-
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) to-tle (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), 
-DeepSeek-Prover-V2 (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), Claude Son
--
- []
-
-
-Underfull \hbox (badness 4954) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) net/Opus) pro-poses can-di-date proofs. Ev-ery
- []
-
-
-Underfull \hbox (badness 6893) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) can-di-date is kernel-checked and axiom-audited
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) against $\OMS/lmsy/m/n/10 f[]\OML/lmm/m/it/10 ; []; []\OM
-S/lmsy/m/n/10 g$\OT1/lmr/m/n/10 (+20) .
- []
-
-) (./sections/results.tex
-<figures/fig_mutation_kill_rate.pdf, id=78, 888.13808pt x 457.93616pt>
+) (./sections/results.tex [2]
+<figures/fig_mutation_kill_rate.pdf, id=98, 888.13808pt x 457.93616pt>
 File: figures/fig_mutation_kill_rate.pdf Graphic file (type pdf)
 <use figures/fig_mutation_kill_rate.pdf>
 Package pdftex.def Info: figures/fig_mutation_kill_rate.pdf  used on input line
  55.
 (pdftex.def)             Requested size: 234.8775pt x 121.10094pt.
- [2]) (./sections/discussion.tex) (./main.bbl
+) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -807,7 +759,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 ttalab /
  []
 
-) (./sections/appendix.tex
+[3]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
  []
@@ -858,10 +810,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 n
  []
 
-[3]
+
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
@@ -874,20 +829,19 @@ Package natbib Warning: There were undefined citations.
 [4] [5 <./figures/kairo_pipeline.pdf>] [6
 
 
- <./figures/fig_cross_paradigm.pdf> <./figures/fig_mutation_kill_rate.pdf>] (./
-main.aux)
+ <./figures/fig_mutation_kill_rate.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 95A25D53E66A073C6F8121E79D59FC85;1137.
+(rerunfilecheck)             Checksum: 33ADD51A6544EAC1230981ADEB82DE7D;1185.
  ) 
 Here is how much of TeX's memory you used:
- 15901 strings out of 480247
- 257086 string characters out of 5896152
- 597073 words of memory out of 5000000
- 33377 multiletter control sequences out of 15000+600000
- 529584 words of font info for 149 fonts, out of 8000000 for 9000
+ 15904 strings out of 480247
+ 256920 string characters out of 5896152
+ 596785 words of memory out of 5000000
+ 33372 multiletter control sequences out of 15000+600000
+ 532660 words of font info for 152 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,11n,77p,1001b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
@@ -907,10 +861,10 @@ xmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 464554 bytes).
+Output written on main.pdf (6 pages, 427924 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 34 named destinations out of 1000 (max. 500000)
- 32336 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 34379 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -111,43 +111,12 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/methods.tex
 
-Package natbib Warning: Citation `harmonic2025aristotle' on page 2 undefined on
- input line 22.
+Underfull \hbox (badness 3449) in paragraph at lines 22--26
+ \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
+gents main-tain
 
-
-Package natbib Warning: Citation `deepseekprover2024v2' on page 2 undefined on 
-input line 23.
-
-
-Package natbib Warning: Citation `hypothesis2013' on page 2 undefined on input 
-line 28.
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 20--38
- \OT1/lmr/bx/n/10 (+20) Ver-i-fi-ca-tion modal-i-ties.[] \OT1/lmr/m/n/10 (+20) 
-(1) \OT1/lmr/bx/n/10 (+20) Lean 4 ker-nel.
-
-Underfull \hbox (badness 1028) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) The claim is stated as a Lean 4 the-o-rem with
-
-Underfull \hbox (badness 2326) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) a \OT1/lmtt/m/n/10 sorry \OT1/lmr/m/n/10 (+20) place-hold
-er. A drafter swarm (Aris-
-
-Underfull \hbox (badness 1852) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) to-tle (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), 
-DeepSeek-Prover-V2 (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), Claude Son
--
-
-Underfull \hbox (badness 4954) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) net/Opus) pro-poses can-di-date proofs. Ev-ery
-
-Underfull \hbox (badness 6893) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) can-di-date is kernel-checked and axiom-audited
-
-Underfull \hbox (badness 6542) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) against $\OMS/lmsy/m/n/10 f[]\OML/lmm/m/it/10 ; []; []\OM
-S/lmsy/m/n/10 g$\OT1/lmr/m/n/10 (+20) .
+Underfull \hbox (badness 1314) in paragraph at lines 38--42
+\OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [2]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
@@ -177,7 +146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[3]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
@@ -210,9 +179,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-[3]
+
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
@@ -221,8 +193,8 @@ put line 71.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_cross_paradigm.pdf> <.
-/figures/fig_mutation_kill_rate.pdf>] (./main.aux)
+[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_mutation_kill_rate.pdf
+>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -235,35 +207,35 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
  )
-(see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
-r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/tex
-mf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 464086 bytes).
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{figure.caption.3} has been referenced but does not exist, replaced by a fixed 
+one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
+lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/
+fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (6 pages, 427929 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
 The style file: icml2026.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "harmonic2025aristotle"
-Warning--I didn't find a database entry for "deepseekprover2024v2"
-Warning--I didn't find a database entry for "hypothesis2013"
 Warning--I didn't find a database entry for "stimberg2019brian2"
-(There were 4 warnings)
+(There was 1 warning)
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -377,43 +349,12 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/methods.tex
 
-Package natbib Warning: Citation `harmonic2025aristotle' on page 2 undefined on
- input line 22.
+Underfull \hbox (badness 3449) in paragraph at lines 22--26
+ \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
+gents main-tain
 
-
-Package natbib Warning: Citation `deepseekprover2024v2' on page 2 undefined on 
-input line 23.
-
-
-Package natbib Warning: Citation `hypothesis2013' on page 2 undefined on input 
-line 28.
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 20--38
- \OT1/lmr/bx/n/10 (+20) Ver-i-fi-ca-tion modal-i-ties.[] \OT1/lmr/m/n/10 (+20) 
-(1) \OT1/lmr/bx/n/10 (+20) Lean 4 ker-nel.
-
-Underfull \hbox (badness 1028) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) The claim is stated as a Lean 4 the-o-rem with
-
-Underfull \hbox (badness 2326) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) a \OT1/lmtt/m/n/10 sorry \OT1/lmr/m/n/10 (+20) place-hold
-er. A drafter swarm (Aris-
-
-Underfull \hbox (badness 1852) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) to-tle (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), 
-DeepSeek-Prover-V2 (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), Claude Son
--
-
-Underfull \hbox (badness 4954) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) net/Opus) pro-poses can-di-date proofs. Ev-ery
-
-Underfull \hbox (badness 6893) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) can-di-date is kernel-checked and axiom-audited
-
-Underfull \hbox (badness 6542) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) against $\OMS/lmsy/m/n/10 f[]\OML/lmm/m/it/10 ; []; []\OM
-S/lmsy/m/n/10 g$\OT1/lmr/m/n/10 (+20) .
+Underfull \hbox (badness 1314) in paragraph at lines 38--42
+\OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [2]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
@@ -443,7 +384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[3]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
@@ -476,9 +417,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-[3]
+
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
@@ -487,8 +431,8 @@ put line 71.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_cross_paradigm.pdf> <.
-/figures/fig_mutation_kill_rate.pdf>] (./main.aux)
+[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_mutation_kill_rate.pdf
+>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -511,7 +455,7 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 464554 bytes).
+Output written on main.pdf (6 pages, 427924 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -626,43 +570,12 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/methods.tex
 
-Package natbib Warning: Citation `harmonic2025aristotle' on page 2 undefined on
- input line 22.
+Underfull \hbox (badness 3449) in paragraph at lines 22--26
+ \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
+gents main-tain
 
-
-Package natbib Warning: Citation `deepseekprover2024v2' on page 2 undefined on 
-input line 23.
-
-
-Package natbib Warning: Citation `hypothesis2013' on page 2 undefined on input 
-line 28.
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 20--38
- \OT1/lmr/bx/n/10 (+20) Ver-i-fi-ca-tion modal-i-ties.[] \OT1/lmr/m/n/10 (+20) 
-(1) \OT1/lmr/bx/n/10 (+20) Lean 4 ker-nel.
-
-Underfull \hbox (badness 1028) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) The claim is stated as a Lean 4 the-o-rem with
-
-Underfull \hbox (badness 2326) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) a \OT1/lmtt/m/n/10 sorry \OT1/lmr/m/n/10 (+20) place-hold
-er. A drafter swarm (Aris-
-
-Underfull \hbox (badness 1852) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) to-tle (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), 
-DeepSeek-Prover-V2 (\OT1/lmr/bx/n/10 (+20) ?\OT1/lmr/m/n/10 (+20) ), Claude Son
--
-
-Underfull \hbox (badness 4954) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) net/Opus) pro-poses can-di-date proofs. Ev-ery
-
-Underfull \hbox (badness 6893) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) can-di-date is kernel-checked and axiom-audited
-
-Underfull \hbox (badness 6542) in paragraph at lines 20--38
-\OT1/lmr/m/n/10 (+20) against $\OMS/lmsy/m/n/10 f[]\OML/lmm/m/it/10 ; []; []\OM
-S/lmsy/m/n/10 g$\OT1/lmr/m/n/10 (+20) .
+Underfull \hbox (badness 1314) in paragraph at lines 38--42
+\OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [2]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
@@ -692,7 +605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[3]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
@@ -725,9 +638,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-[3]
+
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
 put line 71.
@@ -736,8 +652,8 @@ put line 71.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_cross_paradigm.pdf> <.
-/figures/fig_mutation_kill_rate.pdf>] (./main.aux)
+[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_mutation_kill_rate.pdf
+>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -760,5 +676,5 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 464554 bytes).
+Output written on main.pdf (6 pages, 427924 bytes).
 Transcript written on main.log.

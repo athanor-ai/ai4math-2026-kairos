@@ -1,55 +1,67 @@
-\section{The Kairos Pipeline}
+\section{The \sys{} Multi-Agent Fleet}
 \label{sec:methods}
 
-\sys{} decomposes each scientific claim into six verification
-modalities and returns a per-layer verdict with a sandwich bound
-(Fig.~\ref{fig:pipeline}).
+\sys{} is not a single agent. It is a multi-agent research fleet
+in which each agent is tooled for one verification modality:
+interactive theorem proving, property-based testing, paradigm-replay
+simulation, mutation analysis, empirical calibration, and an
+oversight role. Frontier large language models drive the agents.
+Two architectural properties are essential.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{figures/fig_cross_paradigm.pdf}
-\caption{\textbf{Cross-paradigm distinguishability matrix.}
-Pairwise separation of the four candidate rules on the Tang et al.\
-paradigm. Green = distinguished; red = indistinguishable. Only
-actor--critic with eligibility traces reproduces all three
-behavioral observables.}
-\label{fig:pipeline}
-\end{figure}
+\paragraph{Verification-gated handoffs.}
+Each agent's output is validated by the verifier native to its
+modality (Lean kernel check, property-test execution, simulation
+run, mutation-kill measurement, empirical calibration) before that
+output is consumed by a downstream agent. Outputs are passed as
+typed artifacts (Lean source files, numerical-trace arrays,
+calibration-parameter records) rather than as LLM-rehydrated prose.
+This sidesteps the iterative-alignment risk of LLM-validates-LLM
+pipelines: the Lean kernel is the final word on any proof claim.
 
-\paragraph{Verification modalities.}
-(1)~\textbf{Lean~4 kernel.} The claim is stated as a Lean~4
-theorem with a \texttt{sorry} placeholder. A drafter swarm
-(Aristotle \citep{harmonic2025aristotle}, DeepSeek-Prover-V2
-\citep{deepseekprover2024v2}, Claude Sonnet/Opus) proposes
-candidate proofs. Every candidate is kernel-checked and
-axiom-audited against $\{\texttt{propext},
-\texttt{Classical.choice}, \texttt{Quot.sound}\}$.
-(2)~\textbf{Property-based testing.} Hypothesis
-\citep{hypothesis2013} draws parameter tuples from the
-modelled regime and shrinks any falsifying sample.
-(3)~\textbf{Closed-loop simulation.} A packet-level simulator
-exercises the transition relation on a parameter grid.
-(4)~\textbf{Counterexample construction.} Z3 queries the
-negation of the claim for a model.
-(5)~\textbf{Blinded ablation.} Each rule is evaluated on a
-held-out behavioral observable not used in fitting.
-(6)~\textbf{Mutation testing.} Ten mutation operators are
-applied to the claim; each backend is scored on kill rate.
+\paragraph{Persistent shared context.}
+Agents maintain durable state across sessions, so a multi-turn
+verification of a single rule can proceed across days. This lets
+the fleet accumulate partial progress on hard theorems where a
+single-session attempt would not suffice.
+
+\paragraph{Six verification modalities.}
+The fleet covers six modalities, each targeting a distinct failure
+mode:
+\begin{enumerate}[leftmargin=1.5em,itemsep=0.1em]
+\item \textbf{Lean~4 algebraic proof.} Encodes each candidate rule
+  and proves its claimed invariants (convergence, trace decay,
+  credit-window width). Catches structural errors: wrong convergence
+  rate, missing hypothesis, vacuous closure.
+\item \textbf{Property-based testing.} Hypothesis draws parameter
+  tuples from the modelled regime and shrinks any falsifying sample.
+  Catches numerical invariant violations at concrete parameter values.
+\item \textbf{Paradigm-replay simulation.} Re-implements each rule
+  in Brian~2 under the \citet{tang2024dynamic} closed-loop paradigm.
+  Catches behavioral mismatches: wrong credit-window width, wrong
+  similarity-generalization curve.
+\item \textbf{Mutation analysis.} Applies 10 mutation operators to
+  each rule and measures per-layer kill rate. Quantifies the
+  complementarity of the three verification layers.
+\item \textbf{Empirical calibration.} Fits the eligibility-trace
+  width to Tang et al.\ Fig.~3c ($n=55$ actions, $4.4\%$ error).
+\item \textbf{Oversight.} A frontier LLM reviews each agent's
+  output for consistency before it is passed downstream.
+\end{enumerate}
 
 \paragraph{Self-evolving loop.}
-When any modality returns a counterexample, \sys{} surfaces
-the witness to the drafter swarm with the instruction:
-``revise the theorem statement to exclude this witness while
-preserving the intended claim.'' The revised statement is
-re-submitted to all six modalities. The loop terminates when
-all modalities return \texttt{closed} or when a maximum
-iteration count is reached. In the actor--critic case, the
-loop ran four iterations before the corrected statement
-stabilized.
+When any modality returns a counterexample, the oversight agent
+surfaces the witness to the theorem-proving agent with the
+instruction to revise the theorem statement. The revised statement
+is re-submitted to all six modalities. The loop terminates when
+all modalities return \texttt{closed} or when a maximum iteration
+count is reached. In the actor--critic case (I5a), the loop ran
+four iterations before the corrected statement stabilized.
 
-\paragraph{Sandwich bound.}
-A claim is \emph{supported} when at least three modalities
-return \texttt{closed} and none returns \texttt{failed}. The
-sandwich bound $\tau_c \in [2.70, 2.82]$\,s is the interval
-between the empirical lower bound (simulation) and the analytic
-upper bound (Theorem~I2e).
+\paragraph{Candidate rules.}
+We apply the fleet to four candidate dopamine credit-assignment
+rules: TD($\lambda$) with eligibility traces, action-prediction
+error (APE), Rescorla--Wagner (following \citet{markowitz2023spontaneous}),
+and time-magnitude rank-4 distributional RL (TMRL,
+\citet{sousa2025tmrl}). Each rule is encoded in Lean~4 with a
+shared substrate: state and action are finite types, rewards are
+real-valued, and a policy is a mapping $s \mapsto \mathrm{PMF}(a)$.
