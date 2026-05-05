@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  5 MAY 2026 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  5 MAY 2026 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -681,18 +681,28 @@ Underfull \hbox (badness 3792) in paragraph at lines 2--18
 \OT1/lmr/m/n/10 (+20) actor--critic con-ver-gence the-o-rem in its
  []
 
-) (./sections/intro.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) (./sections/intro.tex
+<figures/kairo_pipeline.pdf, id=36, 1192.455pt x 1123.79848pt>
+File: figures/kairo_pipeline.pdf Graphic file (type pdf)
+<use figures/kairo_pipeline.pdf>
+Package pdftex.def Info: figures/kairo_pipeline.pdf  used on input line 6.
+(pdftex.def)             Requested size: 478.06395pt x 450.5403pt.
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 13.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]) (./sections/methods.tex
-<figures/fig_cross_paradigm.pdf, id=57, 721.94315pt x 502.5494pt>
+<figures/fig_cross_paradigm.pdf, id=74, 721.94315pt x 502.5494pt>
 File: figures/fig_cross_paradigm.pdf Graphic file (type pdf)
 <use figures/fig_cross_paradigm.pdf>
 Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 10.
 
 (pdftex.def)             Requested size: 234.8775pt x 163.49532pt.
-
 
 Package natbib Warning: Citation `harmonic2025aristotle' on page 2 undefined on
  input line 22.
@@ -745,15 +755,14 @@ Underfull \hbox (badness 6542) in paragraph at lines 20--38
 S/lmsy/m/n/10 g$\OT1/lmr/m/n/10 (+20) .
  []
 
-) (./sections/results.tex [2 <./figures/fig_cross_paradigm.pdf>]
-<figures/fig_mutation_kill_rate.pdf, id=204, 888.13808pt x 457.93616pt>
+) (./sections/results.tex
+<figures/fig_mutation_kill_rate.pdf, id=78, 888.13808pt x 457.93616pt>
 File: figures/fig_mutation_kill_rate.pdf Graphic file (type pdf)
 <use figures/fig_mutation_kill_rate.pdf>
 Package pdftex.def Info: figures/fig_mutation_kill_rate.pdf  used on input line
  55.
 (pdftex.def)             Requested size: 234.8775pt x 121.10094pt.
-)
-(./sections/discussion.tex) (./main.bbl
+ [2]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -798,43 +807,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 ttalab /
  []
 
-[3 <./figures/fig_mutation_kill_rate.pdf>])
+) (./sections/appendix.tex
+Underfull \hbox (badness 1067) in paragraph at lines 7--16
+\OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \OT1/lmr/bx/n/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-v
+ised the-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+\OT1/lmr/m/n/10 (+20) o-rem adds two summa-bil-ity hy-pothe-ses:
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 18--26
+\OT1/lmtt/m/n/10 h[]critic[]summable \OT1/lmr/m/n/10 (+20) (summa-bil-ity of cr
+itic in-cre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+ \OT1/lmr/bx/n/10 (+20) Machine-check sta-tus.[] \OT1/lmtt/m/n/10 lake build \O
+T1/lmr/m/n/10 (+20) ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\OT1/lmr/m/n/10 (+20) its cleanly, zero \OT1/lmtt/m/n/10 sorry\OT1/lmr/m/n/10 (
++20) , ax-iom au-dit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\OMS/lmsy/m/n/10 f[]\OML/lmm/m/it/10 ; []; []\OMS/lmsy/m/n/10 g$\OT1/lmr/m/n/10
+ (+20) .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\OT1/lmr/m/n/10 (+20) The full Lean source is in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
+n
+ []
+
+[3]
+Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
+put line 71.
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-[4
+[4] [5 <./figures/kairo_pipeline.pdf>] [6
 
-] (./main.aux)
+
+ <./figures/fig_cross_paradigm.pdf> <./figures/fig_mutation_kill_rate.pdf>] (./
+main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91D62BF54CF8909A5C621982A045BCB5;418.
+(rerunfilecheck)             Checksum: 95A25D53E66A073C6F8121E79D59FC85;1137.
  ) 
 Here is how much of TeX's memory you used:
- 15852 strings out of 480247
- 256233 string characters out of 5896152
- 595508 words of memory out of 5000000
- 33351 multiletter control sequences out of 15000+600000
- 526070 words of font info for 142 fonts, out of 8000000 for 9000
+ 15901 strings out of 480247
+ 257086 string characters out of 5896152
+ 597073 words of memory out of 5000000
+ 33377 multiletter control sequences out of 15000+600000
+ 529584 words of font info for 149 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,11n,77p,1001b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb>
-Output written on main.pdf (4 pages, 375617 bytes).
+hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texm
+f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/font
+s/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (6 pages, 464554 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 30251 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 32336 words of extra memory for PDF output out of 35830 (max. 10000000)
 
