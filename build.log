@@ -117,14 +117,6 @@ gents main-tain
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [3]
-Underfull \hbox (badness 2005) in paragraph at lines 136--136
-[]\OT1/lmr/m/it/9 (+20) (a) |\OT1/lmr/m/n/9 (+20) Credit-window cal-i-bra-tion 
-against Tang
-
-Underfull \hbox (badness 1540) in paragraph at lines 142--142
-[]\OT1/lmr/m/it/9 (+20) (b) |\OT1/lmr/m/n/9 (+20) Narrowing-rate cal-i-bra-tion
- against Tang
-
 Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
 [4] [5 <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pd
@@ -197,9 +189,6 @@ n
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
 /dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
@@ -220,7 +209,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636858 bytes).
+Output written on main.pdf (8 pages, 636833 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
@@ -345,14 +334,6 @@ gents main-tain
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [3]
-Underfull \hbox (badness 2005) in paragraph at lines 136--136
-[]\OT1/lmr/m/it/9 (+20) (a) |\OT1/lmr/m/n/9 (+20) Credit-window cal-i-bra-tion 
-against Tang
-
-Underfull \hbox (badness 1540) in paragraph at lines 142--142
-[]\OT1/lmr/m/it/9 (+20) (b) |\OT1/lmr/m/n/9 (+20) Narrowing-rate cal-i-bra-tion
- against Tang
-
 Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
 [4] [5 <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pd
@@ -445,7 +426,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636858 bytes).
+Output written on main.pdf (8 pages, 636833 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -566,14 +547,6 @@ gents main-tain
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [3]
-Underfull \hbox (badness 2005) in paragraph at lines 136--136
-[]\OT1/lmr/m/it/9 (+20) (a) |\OT1/lmr/m/n/9 (+20) Credit-window cal-i-bra-tion 
-against Tang
-
-Underfull \hbox (badness 1540) in paragraph at lines 142--142
-[]\OT1/lmr/m/it/9 (+20) (b) |\OT1/lmr/m/n/9 (+20) Narrowing-rate cal-i-bra-tion
- against Tang
-
 Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
 [4] [5 <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pd
@@ -666,5 +639,5 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636858 bytes).
+Output written on main.pdf (8 pages, 636833 bytes).
 Transcript written on main.log.
