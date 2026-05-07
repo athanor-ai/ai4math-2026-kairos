@@ -19,37 +19,13 @@ $\mathbb{N}$ with Robbins--Monro step sizes causes the actor
 iterate to diverge. The corrected statement under summability
 hypotheses on the actor and critic increments machine-checks
 in Lean~4 with zero \texttt{sorry} (14 of 18 theorems closed;
-3 carry \texttt{sorry} pending Mathlib's stochastic-approximation
-framework). The corrected theorem is strictly stronger: the
+3 Robbins--Monro content goals carry \texttt{sorry}; the
+underlying stochastic-approximation infrastructure is proved
+separately in Pythia). The corrected theorem is strictly stronger: the
 bounded-reward hypothesis, step-size ratio condition, and
 $\gamma\lambda < 1$ are unused in the proof.
 
-\begin{table*}[t]
-\centering
-\small
-\caption{Lean proof status across 18 theorems.}
-\begin{tabular}{@{}llll@{}}
-\toprule
-ID & Description & Status & Module \\
-\midrule
-I1b & TD(0) one-step support & closed & TDZero \\
-I1c & TD(0) credit-window refutation & closed & TDZero \\
-I2b & Eligibility-trace closed form & closed & EligTrace \\
-I2c & Eligibility-trace bound & closed & EligTrace \\
-I2d & Divergence at boundary & closed & EligTrace \\
-I2e & Credit-window time constant & closed & EligTrace \\
-I3b & SARSA(0) one-step support & closed & SARSA \\
-I4b & APE one-step support & closed & APE \\
-I5a & Actor-critic convergence (corrected) & closed & ActorCritic \\
-I5c & Kernel symmetry & closed & ActorCritic \\
-I5c' & Self-non-negativity & closed & ActorCritic \\
-I1a & TD(0) Robbins-Monro content & sorry & TDZero \\
-I2a & Eligibility-trace RM content & sorry & EligTrace \\
-I3a & SARSA RM content & sorry & SARSA \\
-\bottomrule
-\end{tabular}
-\label{tab:lean-status}
-\end{table*}
+
 
 \paragraph{Simulation fidelity.}
 Actor--critic with the annealing RBF kernel is the only rule
