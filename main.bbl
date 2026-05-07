@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -44,6 +44,12 @@ Sousa, M., Bujalski, P., Cruz, B.~F., Louie, K., McNamee, D.~C., and Paton,
 \newblock \doi{10.1038/s41586-025-09089-6}.
 \newblock URL \url{https://www.nature.com/articles/s41586-025-09089-6}.
 \newblock Public data at Figshare article 28390151.
+
+\bibitem[Stimberg et~al.(2019)Stimberg, Brette, and
+  Goodman]{stimberg2019brian2}
+Stimberg, M., Brette, R., and Goodman, D.~F.
+\newblock Brian 2, an intuitive and efficient neural simulator.
+\newblock \emph{eLife}, 8:\penalty0 e47314, 2019.
 
 \bibitem[Tang et~al.(2024)Tang, Paix{\~a}o, Carvalho, Silva, Klaus, and
   Costa]{tang2024dynamic}

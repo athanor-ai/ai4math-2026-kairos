@@ -75,6 +75,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf/tex/latex/lm/lmodern.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty)
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./main.aux) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -89,20 +90,11 @@ For additional information on amsmath, use the `?' option.
 (./main.out) (./main.out)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 46.
-
-
-
-*******************************************************
-Title exceeds size limitations for running head.
-Please supply a shorter form for the running head
-with \icmltitlerunning{...} prior to \begin{document}
-*******************************************************
-
+(hyperref)                removing `\\' on input line 47.
 
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 46.
+(Font)              using `OT1/lmr/bx/n' instead on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
@@ -112,25 +104,34 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
-Package hyperref Warning: Ignoring empty anchor on input line 48.
+Package hyperref Warning: Ignoring empty anchor on input line 49.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
 (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./figures/kairo_pipeline.pdf>]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [2]
-Underfull \hbox (badness 1721) in paragraph at lines 136--136
-\OT1/lmr/m/n/9 (+20) 2\OML/lmm/m/it/9 :\OT1/lmr/m/n/9 (+20) 82$s vs em-pir-i-ca
-l $2\OML/lmm/m/it/9 :\OT1/lmr/m/n/9 (+20) 70$s,
+) (./sections/results.tex [3]
+Underfull \hbox (badness 2005) in paragraph at lines 136--136
+[]\OT1/lmr/m/it/9 (+20) (a) |\OT1/lmr/m/n/9 (+20) Credit-window cal-i-bra-tion 
+against Tang
+
+Underfull \hbox (badness 1540) in paragraph at lines 142--142
+[]\OT1/lmr/m/it/9 (+20) (b) |\OT1/lmr/m/n/9 (+20) Narrowing-rate cal-i-bra-tion
+ against Tang
 
 Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-[3]) (./sections/discussion.tex) (./main.bbl
+[4] [5 <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pd
+f> <./figures/fig_tang_zenodo_calibration.pdf> <./figures/fig_tang_fig5d_narrow
+ing.pdf>] [6 <./figures/fig_cross_paradigm.pdf> <./figures/fig_credit_kernel.pd
+f> <./figures/fig_entropy.pdf> <./figures/fig_similarity.pdf> <./figures/fig_cr
+edit_window_sweep.pdf>]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -159,7 +160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[4]) (./sections/appendix.tex
+[7]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
@@ -192,19 +193,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-
-Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 46.
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-[5] [6 <./figures/kairo_pipeline.pdf>] [7 <./figures/fig_tang_per_animal.pdf> <
-./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pd
-f> <./figures/fig_tang_fig5d_narrowing.pdf> <./figures/fig_cross_paradigm.pdf>]
- [8 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fi
-g_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
+) [8] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -213,9 +202,9 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
-r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
+/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
@@ -231,14 +220,12 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636241 bytes).
+Output written on main.pdf (8 pages, 636858 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
 The style file: icml2026.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "stimberg2019brian2"
-(There was 1 warning)
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -316,6 +303,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf/tex/latex/lm/lmodern.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty)
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./main.aux) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -330,20 +318,11 @@ For additional information on amsmath, use the `?' option.
 (./main.out) (./main.out)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 46.
-
-
-
-*******************************************************
-Title exceeds size limitations for running head.
-Please supply a shorter form for the running head
-with \icmltitlerunning{...} prior to \begin{document}
-*******************************************************
-
+(hyperref)                removing `\\' on input line 47.
 
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 46.
+(Font)              using `OT1/lmr/bx/n' instead on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
@@ -353,25 +332,34 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
-Package hyperref Warning: Ignoring empty anchor on input line 48.
+Package hyperref Warning: Ignoring empty anchor on input line 49.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
 (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./figures/kairo_pipeline.pdf>]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [2]
-Underfull \hbox (badness 1721) in paragraph at lines 136--136
-\OT1/lmr/m/n/9 (+20) 2\OML/lmm/m/it/9 :\OT1/lmr/m/n/9 (+20) 82$s vs em-pir-i-ca
-l $2\OML/lmm/m/it/9 :\OT1/lmr/m/n/9 (+20) 70$s,
+) (./sections/results.tex [3]
+Underfull \hbox (badness 2005) in paragraph at lines 136--136
+[]\OT1/lmr/m/it/9 (+20) (a) |\OT1/lmr/m/n/9 (+20) Credit-window cal-i-bra-tion 
+against Tang
+
+Underfull \hbox (badness 1540) in paragraph at lines 142--142
+[]\OT1/lmr/m/it/9 (+20) (b) |\OT1/lmr/m/n/9 (+20) Narrowing-rate cal-i-bra-tion
+ against Tang
 
 Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-[3]) (./sections/discussion.tex) (./main.bbl
+[4] [5 <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pd
+f> <./figures/fig_tang_zenodo_calibration.pdf> <./figures/fig_tang_fig5d_narrow
+ing.pdf>] [6 <./figures/fig_cross_paradigm.pdf> <./figures/fig_credit_kernel.pd
+f> <./figures/fig_entropy.pdf> <./figures/fig_similarity.pdf> <./figures/fig_cr
+edit_window_sweep.pdf>]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -400,7 +388,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[4]) (./sections/appendix.tex
+[7]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
@@ -433,27 +421,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-
-Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 46.
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-[5] [6 <./figures/kairo_pipeline.pdf>] [7 <./figures/fig_tang_per_animal.pdf> <
-./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pd
-f> <./figures/fig_tang_fig5d_narrowing.pdf> <./figures/fig_cross_paradigm.pdf>]
- [8 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fi
-g_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
+) [8] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
-r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
+/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
@@ -469,7 +445,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636232 bytes).
+Output written on main.pdf (8 pages, 636858 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -548,6 +524,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf/tex/latex/lm/lmodern.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty)
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./main.aux) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -562,20 +539,11 @@ For additional information on amsmath, use the `?' option.
 (./main.out) (./main.out)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 46.
-
-
-
-*******************************************************
-Title exceeds size limitations for running head.
-Please supply a shorter form for the running head
-with \icmltitlerunning{...} prior to \begin{document}
-*******************************************************
-
+(hyperref)                removing `\\' on input line 47.
 
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 46.
+(Font)              using `OT1/lmr/bx/n' instead on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
@@ -585,25 +553,34 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
-Package hyperref Warning: Ignoring empty anchor on input line 48.
+Package hyperref Warning: Ignoring empty anchor on input line 49.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
 (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./figures/kairo_pipeline.pdf>]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
 Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [2]
-Underfull \hbox (badness 1721) in paragraph at lines 136--136
-\OT1/lmr/m/n/9 (+20) 2\OML/lmm/m/it/9 :\OT1/lmr/m/n/9 (+20) 82$s vs em-pir-i-ca
-l $2\OML/lmm/m/it/9 :\OT1/lmr/m/n/9 (+20) 70$s,
+) (./sections/results.tex [3]
+Underfull \hbox (badness 2005) in paragraph at lines 136--136
+[]\OT1/lmr/m/it/9 (+20) (a) |\OT1/lmr/m/n/9 (+20) Credit-window cal-i-bra-tion 
+against Tang
+
+Underfull \hbox (badness 1540) in paragraph at lines 142--142
+[]\OT1/lmr/m/it/9 (+20) (b) |\OT1/lmr/m/n/9 (+20) Narrowing-rate cal-i-bra-tion
+ against Tang
 
 Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-[3]) (./sections/discussion.tex) (./main.bbl
+[4] [5 <./figures/fig_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pd
+f> <./figures/fig_tang_zenodo_calibration.pdf> <./figures/fig_tang_fig5d_narrow
+ing.pdf>] [6 <./figures/fig_cross_paradigm.pdf> <./figures/fig_credit_kernel.pd
+f> <./figures/fig_entropy.pdf> <./figures/fig_similarity.pdf> <./figures/fig_cr
+edit_window_sweep.pdf>]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -632,7 +609,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[4]) (./sections/appendix.tex
+[7]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
 
@@ -665,27 +642,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-
-Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 46.
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-[5] [6 <./figures/kairo_pipeline.pdf>] [7 <./figures/fig_tang_per_animal.pdf> <
-./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pd
-f> <./figures/fig_tang_fig5d_narrowing.pdf> <./figures/fig_cross_paradigm.pdf>]
- [8 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fi
-g_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
+) [8] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
-r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
+/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
@@ -701,5 +666,5 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636232 bytes).
+Output written on main.pdf (8 pages, 636858 bytes).
 Transcript written on main.log.
