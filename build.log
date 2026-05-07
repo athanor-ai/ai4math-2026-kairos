@@ -122,26 +122,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \begin{subfigure}
+l.131 \begin{subfigure}
                        [t]{0.48\columnwidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{subfigure}
+l.137 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -150,58 +150,54 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{subfigure}
+l.138 \begin{subfigure}
                        [t]{0.48\columnwidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \end{subfigure}
+l.143 \end{subfigure}
                      
 
-LaTeX Warning: Reference `fig:sim-fidelity' on page 3 undefined on input line 1
-45.
-
-
 ! LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \begin{subfigure}
+l.185 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{subfigure}
+l.189 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -210,26 +206,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \begin{subfigure}
+l.190 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \end{subfigure}
+l.194 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -238,26 +234,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{subfigure}
+l.195 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{subfigure}
+l.199 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -266,34 +262,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \begin{subfigure}
+l.200 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \end{subfigure}
+l.204 \end{subfigure}
                      
 
-LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
+LaTeX Warning: Float too large for page by 574.58357pt on input line 210.
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 186--193
+Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-) (./sections/discussion.tex [3]) (./main.bbl
+[3]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -322,10 +318,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[4]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -356,11 +352,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
 
-Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
- [][] 
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 71.
+put line 46.
 
 )
 
@@ -375,32 +368,32 @@ _similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
-(see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
-r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
-mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on main.pdf (8 pages, 636932 bytes).
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{figure.caption.2} has been referenced but does not exist, replaced by a fixed 
+one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
+lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/
+fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (8 pages, 637059 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
@@ -532,26 +525,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \begin{subfigure}
+l.131 \begin{subfigure}
                        [t]{0.48\columnwidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{subfigure}
+l.137 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -560,26 +553,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{subfigure}
+l.138 \begin{subfigure}
                        [t]{0.48\columnwidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \end{subfigure}
+l.143 \end{subfigure}
                      
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -588,26 +581,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \begin{subfigure}
+l.185 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{subfigure}
+l.189 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -616,26 +609,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \begin{subfigure}
+l.190 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \end{subfigure}
+l.194 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -644,26 +637,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{subfigure}
+l.195 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{subfigure}
+l.199 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -672,34 +665,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \begin{subfigure}
+l.200 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \end{subfigure}
+l.204 \end{subfigure}
                      
 
-LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
+LaTeX Warning: Float too large for page by 574.58357pt on input line 210.
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 186--193
+Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-) (./sections/discussion.tex [3]) (./main.bbl
+[3]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -728,10 +721,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[4]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -762,11 +755,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
 
-Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
- [][] 
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 71.
+put line 46.
 
 )
 
@@ -800,7 +790,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636921 bytes).
+Output written on main.pdf (8 pages, 637047 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -926,26 +916,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \begin{subfigure}
+l.131 \begin{subfigure}
                        [t]{0.48\columnwidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{subfigure}
+l.137 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -954,26 +944,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{subfigure}
+l.138 \begin{subfigure}
                        [t]{0.48\columnwidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \end{subfigure}
+l.143 \end{subfigure}
                      
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -982,26 +972,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \begin{subfigure}
+l.185 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{subfigure}
+l.189 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -1010,26 +1000,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \begin{subfigure}
+l.190 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \end{subfigure}
+l.194 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -1038,26 +1028,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{subfigure}
+l.195 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{subfigure}
+l.199 \end{subfigure}
                      \hfill
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -1066,34 +1056,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \begin{subfigure}
+l.200 \begin{subfigure}
                        [t]{0.24\linewidth}
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \end{subfigure}
+l.204 \end{subfigure}
                      
 
-LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
+LaTeX Warning: Float too large for page by 574.58357pt on input line 210.
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 186--193
+Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-) (./sections/discussion.tex [3]) (./main.bbl
+[3]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -1122,10 +1112,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[4]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -1156,11 +1146,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
 
-Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
- [][] 
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 71.
+put line 46.
 
 )
 
@@ -1194,5 +1181,5 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 636921 bytes).
+Output written on main.pdf (8 pages, 637047 bytes).
 Transcript written on main.log.

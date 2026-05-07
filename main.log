@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  7 MAY 2026 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  7 MAY 2026 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,14 +706,14 @@ Underfull \hbox (badness 1314) in paragraph at lines 38--42
 <figures/fig_tang_per_animal.pdf, id=92, 774.63965pt x 279.79718pt>
 File: figures/fig_tang_per_animal.pdf Graphic file (type pdf)
 <use figures/fig_tang_per_animal.pdf>
-Package pdftex.def Info: figures/fig_tang_per_animal.pdf  used on input line 48
+Package pdftex.def Info: figures/fig_tang_per_animal.pdf  used on input line 75
 .
 (pdftex.def)             Requested size: 234.8775pt x 84.83635pt.
 <figures/fig_mutation_kill_rate.pdf, id=94, 888.13808pt x 457.93616pt>
 File: figures/fig_mutation_kill_rate.pdf Graphic file (type pdf)
 <use figures/fig_mutation_kill_rate.pdf>
 Package pdftex.def Info: figures/fig_mutation_kill_rate.pdf  used on input line
- 84.
+ 111.
 (pdftex.def)             Requested size: 234.8775pt x 121.10094pt.
 
 
@@ -723,7 +723,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \begin{subfigure}
+l.131 \begin{subfigure}
                        [t]{0.48\columnwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -732,7 +732,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -741,7 +741,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \begin{subfigure}[t]{0.48\columnwidth}
+l.131 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -754,16 +754,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: figures/fig_tang_zenodo_calibration.pdf Graphic file (type pdf)
 <use figures/fig_tang_zenodo_calibration.pdf>
 Package pdftex.def Info: figures/fig_tang_zenodo_calibration.pdf  used on input
- line 106.
+ line 133.
 (pdftex.def)             Requested size: 234.8775pt x 88.42438pt.
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{subfigure}
+l.137 \end{subfigure}
                      \hfill
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -776,7 +776,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{subfigure}
+l.138 \begin{subfigure}
                        [t]{0.48\columnwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -785,7 +785,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -794,7 +794,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.111 \begin{subfigure}[t]{0.48\columnwidth}
+l.138 \begin{subfigure}[t]{0.48\columnwidth}
                                             
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -807,16 +807,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: figures/fig_tang_fig5d_narrowing.pdf Graphic file (type pdf)
 <use figures/fig_tang_fig5d_narrowing.pdf>
 Package pdftex.def Info: figures/fig_tang_fig5d_narrowing.pdf  used on input li
-ne 113.
+ne 140.
 (pdftex.def)             Requested size: 234.8775pt x 95.97694pt.
 
-! LaTeX Error: \begin{figure} on input line 102 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 129 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \end{subfigure}
+l.143 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -825,9 +825,9 @@ or  <return>  to continue without it.
 <figures/fig_cross_paradigm.pdf, id=105, 721.94315pt x 502.5494pt>
 File: figures/fig_cross_paradigm.pdf Graphic file (type pdf)
 <use figures/fig_cross_paradigm.pdf>
-Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 135
+Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 162
 .
-(pdftex.def)             Requested size: 234.8775pt x 163.49532pt.
+(pdftex.def)             Requested size: 117.43875pt x 81.74382pt.
 
 ! LaTeX Error: Environment subfigure undefined.
 
@@ -835,7 +835,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \begin{subfigure}
+l.185 \begin{subfigure}
                        [t]{0.24\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -844,7 +844,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -853,7 +853,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.158 \begin{subfigure}[t]{0.24\linewidth}
+l.185 \begin{subfigure}[t]{0.24\linewidth}
                                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -865,17 +865,17 @@ two letters. (See Chapter 27 of The TeXbook.)
 <figures/fig_credit_kernel.pdf, id=107, 345.24362pt x 235.55869pt>
 File: figures/fig_credit_kernel.pdf Graphic file (type pdf)
 <use figures/fig_credit_kernel.pdf>
-Package pdftex.def Info: figures/fig_credit_kernel.pdf  used on input line 160.
+Package pdftex.def Info: figures/fig_credit_kernel.pdf  used on input line 187.
 
 (pdftex.def)             Requested size: 487.8225pt x 332.86024pt.
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{subfigure}
+l.189 \end{subfigure}
                      \hfill
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -888,7 +888,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \begin{subfigure}
+l.190 \begin{subfigure}
                        [t]{0.24\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -897,7 +897,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -906,7 +906,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.163 \begin{subfigure}[t]{0.24\linewidth}
+l.190 \begin{subfigure}[t]{0.24\linewidth}
                                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -918,16 +918,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 <figures/fig_entropy.pdf, id=108, 337.8968pt x 235.61198pt>
 File: figures/fig_entropy.pdf Graphic file (type pdf)
 <use figures/fig_entropy.pdf>
-Package pdftex.def Info: figures/fig_entropy.pdf  used on input line 165.
+Package pdftex.def Info: figures/fig_entropy.pdf  used on input line 192.
 (pdftex.def)             Requested size: 487.8225pt x 340.17259pt.
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \end{subfigure}
+l.194 \end{subfigure}
                      \hfill
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -940,7 +940,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{subfigure}
+l.195 \begin{subfigure}
                        [t]{0.24\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -949,7 +949,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -958,7 +958,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.168 \begin{subfigure}[t]{0.24\linewidth}
+l.195 \begin{subfigure}[t]{0.24\linewidth}
                                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -970,16 +970,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 <figures/fig_similarity.pdf, id=109, 443.51993pt x 212.87845pt>
 File: figures/fig_similarity.pdf Graphic file (type pdf)
 <use figures/fig_similarity.pdf>
-Package pdftex.def Info: figures/fig_similarity.pdf  used on input line 170.
+Package pdftex.def Info: figures/fig_similarity.pdf  used on input line 197.
 (pdftex.def)             Requested size: 487.8225pt x 234.15076pt.
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{subfigure}
+l.199 \end{subfigure}
                      \hfill
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -992,7 +992,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \begin{subfigure}
+l.200 \begin{subfigure}
                        [t]{0.24\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1001,7 +1001,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1010,7 +1010,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.173 \begin{subfigure}[t]{0.24\linewidth}
+l.200 \begin{subfigure}[t]{0.24\linewidth}
                                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1023,30 +1023,30 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: figures/fig_credit_window_sweep.pdf Graphic file (type pdf)
 <use figures/fig_credit_window_sweep.pdf>
 Package pdftex.def Info: figures/fig_credit_window_sweep.pdf  used on input lin
-e 175.
+e 202.
 (pdftex.def)             Requested size: 487.8225pt x 173.1929pt.
 
-! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure*} on input line 183 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \end{subfigure}
+l.204 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
+LaTeX Warning: Float too large for page by 574.58357pt on input line 210.
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 186--193
+Underfull \hbox (badness 2818) in paragraph at lines 213--220
  \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
  []
 
-) (./sections/discussion.tex [3]) (./main.bbl
+[3]) (./sections/discussion.tex) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -1091,12 +1091,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 ttalab /
  []
 
-) (./sections/appendix.tex
+[4]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -1143,13 +1143,8 @@ n
  []
 
 
-Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
- [][] 
- []
-
-
 Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
-put line 71.
+put line 46.
 
 )
 
@@ -1167,10 +1162,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 33ADD51A6544EAC1230981ADEB82DE7D;1185.
  ) 
 Here is how much of TeX's memory you used:
- 15981 strings out of 480247
- 259382 string characters out of 5896152
- 601254 words of memory out of 5000000
- 33427 multiletter control sequences out of 15000+600000
+ 15982 strings out of 480247
+ 259400 string characters out of 5896152
+ 601141 words of memory out of 5000000
+ 33428 multiletter control sequences out of 15000+600000
  536195 words of font info for 159 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,11n,77p,1001b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1192,7 +1187,7 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (8 pages, 636921 bytes).
+Output written on main.pdf (8 pages, 637047 bytes).
 PDF statistics:
  864 PDF objects out of 1000 (max. 8388607)
  335 compressed objects within 4 object streams

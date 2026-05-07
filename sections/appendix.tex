@@ -33,32 +33,7 @@ in the replication package.
 \section{Lean Proof Inventory}
 \label{app:lean-inventory}
 
-\begin{table}[h]
-\centering
-\small
-\caption{Lean proof status across 18 theorems.}
-\begin{tabular}{@{}llll@{}}
-\toprule
-ID & Description & Status & Module \\
-\midrule
-I1b & TD(0) one-step support & closed & TDZero \\
-I1c & TD(0) credit-window refutation & closed & TDZero \\
-I2b & Eligibility-trace closed form & closed & EligTrace \\
-I2c & Eligibility-trace bound & closed & EligTrace \\
-I2d & Divergence at boundary & closed & EligTrace \\
-I2e & Credit-window time constant & closed & EligTrace \\
-I3b & SARSA(0) one-step support & closed & SARSA \\
-I4b & APE one-step support & closed & APE \\
-I5a & Actor-critic convergence (corrected) & closed & ActorCritic \\
-I5c & Kernel symmetry & closed & ActorCritic \\
-I5c' & Self-non-negativity & closed & ActorCritic \\
-I1a & TD(0) Robbins-Monro content & sorry & TDZero \\
-I2a & Eligibility-trace RM content & sorry & EligTrace \\
-I3a & SARSA RM content & sorry & SARSA \\
-\bottomrule
-\end{tabular}
-\label{tab:lean-status}
-\end{table}
+
 
 The three \texttt{sorry} proofs (I1a, I2a, I3a) are Robbins--Monro
 convergence content goals pending Mathlib's stochastic-approximation

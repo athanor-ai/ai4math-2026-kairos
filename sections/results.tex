@@ -24,6 +24,33 @@ framework). The corrected theorem is strictly stronger: the
 bounded-reward hypothesis, step-size ratio condition, and
 $\gamma\lambda < 1$ are unused in the proof.
 
+\begin{table*}[t]
+\centering
+\small
+\caption{Lean proof status across 18 theorems.}
+\begin{tabular}{@{}llll@{}}
+\toprule
+ID & Description & Status & Module \\
+\midrule
+I1b & TD(0) one-step support & closed & TDZero \\
+I1c & TD(0) credit-window refutation & closed & TDZero \\
+I2b & Eligibility-trace closed form & closed & EligTrace \\
+I2c & Eligibility-trace bound & closed & EligTrace \\
+I2d & Divergence at boundary & closed & EligTrace \\
+I2e & Credit-window time constant & closed & EligTrace \\
+I3b & SARSA(0) one-step support & closed & SARSA \\
+I4b & APE one-step support & closed & APE \\
+I5a & Actor-critic convergence (corrected) & closed & ActorCritic \\
+I5c & Kernel symmetry & closed & ActorCritic \\
+I5c' & Self-non-negativity & closed & ActorCritic \\
+I1a & TD(0) Robbins-Monro content & sorry & TDZero \\
+I2a & Eligibility-trace RM content & sorry & EligTrace \\
+I3a & SARSA RM content & sorry & SARSA \\
+\bottomrule
+\end{tabular}
+\label{tab:lean-status}
+\end{table*}
+
 \paragraph{Simulation fidelity.}
 Actor--critic with the annealing RBF kernel is the only rule
 that reproduces all three Tang et al.\ behavioral observables
@@ -43,7 +70,7 @@ single-universal-$\tau_c$ rule at $\alpha = 0.05$. The analytic
 Theorem~I2e value $\tau_c = 2.82$\,s sits at the median of the
 $n=14$ per-animal distribution (Fig.~\ref{fig:per-animal}).
 
-\begin{figure}[t]
+\begin{figure}[!t]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_tang_per_animal.pdf}
 \caption{Per-animal $\tau_c$ distribution ($n=14$). The
@@ -79,7 +106,7 @@ complementary: the proof catches structural mutations (wrong
 convergence rate), the simulation catches parametric mutations
 (wrong $\lambda$ range).
 
-\begin{figure}[t]
+\begin{figure}[!t]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_mutation_kill_rate.pdf}
 \caption{\textbf{Mutation-kill matrix.} Each cell reports
@@ -99,7 +126,7 @@ per-animal narrowing rate (Theorem~I5d) gives $c = 0.630$ against
 the slow-learner fit $c = 0.613 \pm 0.079$ ($n = 7$), within
 $2.7\%$.
 
-\begin{figure}[t]
+\begin{figure}[!t]
 \centering
 \begin{subfigure}[t]{0.48\columnwidth}
  \centering
@@ -130,9 +157,9 @@ $|\Delta V| \le \alpha$ holds on $48/48$ cells).
 Figure~\ref{fig:cross-paradigm} shows each paradigm's invariant
 holding on its own public data.
 
-\begin{figure}[t]
+\begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{figures/fig_cross_paradigm.pdf}
+\includegraphics[width=0.5\columnwidth]{figures/fig_cross_paradigm.pdf}
 \caption{\textbf{Each paradigm's key invariant holds on its own
 public data.} (a)~Tang per-action $\tau_c$ ($n=55$, CV $47.8\%$).
 (b)~Greenstreet lesion effect ($21/21$ positive).
@@ -153,7 +180,7 @@ Theorem~I2e tracks the 100-seed empirical half-decay across the
 full $\lambda$ sweep to within a factor of 1.5. TD(0) and SARSA(0)
 produce near-flat kernels consistent with their one-step support.
 
-\begin{figure*}[t]
+\begin{figure*}[!t]
 \centering
 \begin{subfigure}[t]{0.24\linewidth}
  \centering
