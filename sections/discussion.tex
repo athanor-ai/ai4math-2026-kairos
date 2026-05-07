@@ -8,7 +8,22 @@ dropped for readability. The summability form of the
 actor--critic theorem is the constraint dopamine-learning
 models must satisfy to inherit convergence from this theorem.
 Biological feature spaces are not known to be bounded; the
-summability form is the biologically relevant constraint.
+summability form is the biologically relevant constraint. The
+pattern applies broadly: any scientific claim that cites a
+formal theorem as authority inherits the theorem's hypotheses,
+and those hypotheses are rarely re-checked in downstream prose.
+
+\paragraph{Complementarity of verification layers.}
+The mutation-kill matrix (Fig.~\ref{fig:mutation}) shows that no
+single verification modality catches every failure mode. The Lean
+proof catches structural errors (wrong convergence rate, missing
+hypothesis, vacuous closure). The simulation catches parametric
+errors (wrong $\lambda$ range, wrong credit-window width). The
+property tests catch numerical invariant violations at concrete
+parameter values. The sandwich bound across all three layers is
+non-redundant: every pair of layers leaves at least one mutation
+uncovered. This motivates a multi-layer verification architecture
+rather than relying on any single modality.
 
 \paragraph{The \sys{} fleet as a verification tool.}
 \sys{} is a multi-agent research fleet, not a single autonomous
@@ -18,10 +33,27 @@ statement, and the Lean kernel verified it. The per-animal
 re-analysis and the pairwise distinguishability matrix were
 produced by the simulation and calibration agents. The pipeline
 is reusable: it applies wherever a scientific claim inherits a
-formal guarantee from a cited theorem.
+formal guarantee from a cited theorem. The four-paradigm
+transfer (Tang, Sousa, Greenstreet, Markowitz) demonstrates this
+portability: the same infrastructure verifies rules from four
+independent labs without modification.
+
+\paragraph{Broader impact.}
+Dopamine-dependent credit assignment governs how the brain
+attributes outcomes to past actions. Computational models of
+this process inform drug development for addiction and
+Parkinson's disease, closed-loop brain stimulation protocols,
+and reward-based training of artificial agents. A formal
+refutation of a commonly-cited convergence guarantee (TD(0)
+as an account of the seconds-scale credit window) changes which
+models downstream applications can safely rely on. The corrected
+actor--critic theorem provides a stronger foundation.
 
 \paragraph{Limitations.}
 Three Robbins--Monro-style content goals carry \texttt{sorry}
 proofs pending Mathlib's stochastic-approximation framework.
 The simulation is calibrated on public data from one lab.
 The DAT-KO prediction has not yet been tested experimentally.
+The classifier's Hoeffding bound requires $n \ge 18$ independent
+observations per paradigm, which limits applicability to
+small-sample regimes.

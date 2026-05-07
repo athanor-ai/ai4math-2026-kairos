@@ -116,10 +116,6 @@ Underfull \hbox (badness 1314) in paragraph at lines 38--42
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
 ) (./sections/results.tex [2]
 
-LaTeX Warning: Reference `fig:calibration' on page 3 undefined on input line 93
-.
-
-
 ! LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -176,32 +172,160 @@ Type  H <return>  for immediate help.
 l.116 \end{subfigure}
                      
 
-Package natbib Warning: Citation `greenstreet2025value' on page 3 undefined on 
-input line 126.
+LaTeX Warning: Reference `fig:sim-fidelity' on page 3 undefined on input line 1
+45.
 
 
-LaTeX Warning: Reference `fig:cross-paradigm' on page 3 undefined on input line
- 130.
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.158 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.158 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.163 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.163 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.168 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.168 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.173 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.173 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{subfigure}
+                     
+
+LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
 
 
-Overfull \hbox (1.85345pt too wide) in paragraph at lines 123--132
-\OT1/lmr/m/n/10 (-20) passes $59\OML/lmm/m/it/10 =\OT1/lmr/m/n/10 (-20) 59$ ses
--sions); []Markowitz et al.[] ([]2023[]) Rescorla--
-) (./sections/discussion.tex) (./main.bbl
-Underfull \hbox (badness 2884) in paragraph at lines 15--21
+Underfull \hbox (badness 2818) in paragraph at lines 186--193
+ \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
+) (./sections/discussion.tex [3]) (./main.bbl
+Underfull \hbox (badness 1189) in paragraph at lines 11--22
+\OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--22
+\OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
+articles /
+
+Underfull \hbox (badness 4726) in paragraph at lines 11--22
+\OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
+ta at Zen-
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--22
+\OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--22
+[]$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
+
+Underfull \hbox (badness 2884) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[3]) (./sections/appendix.tex
+) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -235,20 +359,18 @@ n
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
+Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
 put line 71.
 
 )
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_tang_per_animal.pdf> <
+[5] [6 <./figures/kairo_pipeline.pdf>] [7 <./figures/fig_tang_per_animal.pdf> <
 ./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pd
 f> <./figures/fig_tang_fig5d_narrowing.pdf> <./figures/fig_cross_paradigm.pdf>]
-(./main.aux)
+[8 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
+_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -267,17 +389,18 @@ mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 548065 bytes).
+e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on main.pdf (8 pages, 636932 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
@@ -459,14 +582,124 @@ Type  H <return>  for immediate help.
 l.116 \end{subfigure}
                      
 
-Package natbib Warning: Citation `greenstreet2025value' on page 3 undefined on 
-input line 126.
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.158 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.158 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.163 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.163 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.168 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.168 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.173 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.173 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{subfigure}
+                     
+
+LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
 
 
-Overfull \hbox (1.85345pt too wide) in paragraph at lines 123--132
-\OT1/lmr/m/n/10 (-20) passes $59\OML/lmm/m/it/10 =\OT1/lmr/m/n/10 (-20) 59$ ses
--sions); []Markowitz et al.[] ([]2023[]) Rescorla--
-) (./sections/discussion.tex) (./main.bbl
+Underfull \hbox (badness 2818) in paragraph at lines 186--193
+ \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
+) (./sections/discussion.tex [3]) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -495,10 +728,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-[3]) (./sections/appendix.tex
+) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -532,22 +765,18 @@ n
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
 
-Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
+Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
 put line 71.
 
 )
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_tang_per_animal.pdf> <
+[5] [6 <./figures/kairo_pipeline.pdf>] [7 <./figures/fig_tang_per_animal.pdf> <
 ./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pd
 f> <./figures/fig_tang_fig5d_narrowing.pdf> <./figures/fig_cross_paradigm.pdf>]
-(./main.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[8 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
+_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -560,17 +789,18 @@ mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 550188 bytes).
+e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on main.pdf (8 pages, 636921 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -745,7 +975,125 @@ Type  H <return>  for immediate help.
                                                   
 l.116 \end{subfigure}
                      
-) (./sections/discussion.tex) (./main.bbl
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.158 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.158 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.163 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.163 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.168 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.168 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \end{subfigure}
+                     \hfill
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{subfigure}
+                       [t]{0.24\linewidth}
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.173 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.173 \begin{subfigure}[t]{0.24\linewidth}
+                                          
+
+! LaTeX Error: \begin{figure*} on input line 156 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{subfigure}
+                     
+
+LaTeX Warning: Float too large for page by 574.58357pt on input line 183.
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 186--193
+ \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
+) (./sections/discussion.tex [3]) (./main.bbl
 Underfull \hbox (badness 1189) in paragraph at lines 11--22
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
@@ -763,7 +1111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--22
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--22
 []$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
-[3]
+
 Underfull \hbox (badness 2884) in paragraph at lines 30--36
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
@@ -777,7 +1125,7 @@ ttalab /
 ) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -811,17 +1159,18 @@ n
 Overfull \hbox (32.06548pt too wide) in paragraph at lines 40--61
  [][] 
 
-Package natbib Warning: Citation `stimberg2019brian2' on page 4 undefined on in
+Package natbib Warning: Citation `stimberg2019brian2' on page 5 undefined on in
 put line 71.
 
 )
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./figures/kairo_pipeline.pdf>] [6 <./figures/fig_tang_per_animal.pdf> <
+[5] [6 <./figures/kairo_pipeline.pdf>] [7 <./figures/fig_tang_per_animal.pdf> <
 ./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pd
 f> <./figures/fig_tang_fig5d_narrowing.pdf> <./figures/fig_cross_paradigm.pdf>]
-(./main.aux)
+[8 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
+_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -834,15 +1183,16 @@ mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 550211 bytes).
+e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on main.pdf (8 pages, 636921 bytes).
 Transcript written on main.log.
