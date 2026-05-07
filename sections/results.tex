@@ -88,3 +88,55 @@ claim. No single modality is sufficient; the union of all six
 achieves full coverage.}
 \label{fig:mutation}
 \end{figure}
+
+\paragraph{Empirical calibration.}
+Figure~\ref{fig:calibration} calibrates Theorem~I2e against two
+independent Tang et al.\ observables. The credit-window median
+$\tau_c$ at $(\gamma, \lambda, \Delta t) = (0.970, 0.995, 0.100)$
+gives $\tau_c^{\text{analytic}} = 2.82$\,s against empirical
+$2.70$\,s ($n = 55$ action types), a $4.4\%$ error. The
+per-animal narrowing rate (Theorem~I5d) gives $c = 0.630$ against
+the slow-learner fit $c = 0.613 \pm 0.079$ ($n = 7$), within
+$2.7\%$.
+
+\begin{figure}[t]
+\centering
+\begin{subfigure}[t]{0.48\columnwidth}
+ \centering
+ \includegraphics[width=\linewidth]{figures/fig_tang_zenodo_calibration.pdf}
+ \caption{Credit-window calibration against Tang Fig.~3c
+ ($n = 55$). Analytic $\tau_c = 2.82$\,s vs empirical
+ $2.70$\,s, $4.4\%$ error.}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\columnwidth}
+ \centering
+ \includegraphics[width=\linewidth]{figures/fig_tang_fig5d_narrowing.pdf}
+ \caption{Narrowing-rate calibration against Tang Fig.~5d.
+ Per-animal slow ($n=7$) and fast ($n=7$) learners.}
+\end{subfigure}
+\caption{\textbf{Kairos Theorem~I2e predicts the Tang credit-window
+median to $4.4\%$ and the narrowing rate to $2.7\%$.}}
+\label{fig:calibration}
+\end{figure}
+
+\paragraph{Cross-paradigm transfer.}
+The infrastructure ports to three further theory families without
+modification: \citet{sousa2025tmrl} rank-4 time-magnitude
+distributional RL (U1a--c, bound verified on $n = 43$ opto-identified
+DANs); \citet{greenstreet2025value} value-free APE (V1a--c, V1b
+passes $59/59$ sessions); \citet{markowitz2023spontaneous}
+Rescorla--Wagner at fitted $(\gamma, \alpha) = (0.7, 0.6)$ (K1a--c,
+$|\Delta V| \le \alpha$ holds on $48/48$ cells).
+Figure~\ref{fig:cross-paradigm} shows each paradigm's invariant
+holding on its own public data.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_cross_paradigm.pdf}
+\caption{\textbf{Each paradigm's key invariant holds on its own
+public data.} (a)~Tang per-action $\tau_c$ ($n=55$, CV $47.8\%$).
+(b)~Greenstreet lesion effect ($21/21$ positive).
+(c)~Sousa per-neuron $\gamma$ ($n=43$ DANs, median $0.904$).
+(d)~Markowitz $|\Delta V|$ vs bound ($48/48$ cells, max $0.036$).}
+\label{fig:cross-paradigm}
+\end{figure}
