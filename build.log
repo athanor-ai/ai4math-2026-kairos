@@ -90,6 +90,19 @@ For additional information on amsmath, use the `?' option.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 45.
 
+
+
+*******************************************************
+Title exceeds size limitations for running head.
+Please supply a shorter form for the running head
+with \icmltitlerunning{...} prior to \begin{document}
+*******************************************************
+
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 45.
+
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd)
@@ -101,13 +114,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Ignoring empty anchor on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 13.
-
-) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-]
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
+(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
@@ -367,33 +375,27 @@ _similarity.pdf> <./figures/fig_credit_window_sweep.pdf>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  )
-(see the transcript file for additional information)pdfTeX warning (dest): name
-{figure.caption.2} has been referenced but does not exist, replaced by a fixed 
-one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/
-fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (8 pages, 637059 bytes).
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm
+/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on main.pdf (8 pages, 636451 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
@@ -493,6 +495,19 @@ For additional information on amsmath, use the `?' option.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 45.
 
+
+
+*******************************************************
+Title exceeds size limitations for running head.
+Please supply a shorter form for the running head
+with \icmltitlerunning{...} prior to \begin{document}
+*******************************************************
+
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 45.
+
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd)
@@ -504,13 +519,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Ignoring empty anchor on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 13.
-
-) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-]
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
+(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
@@ -790,7 +800,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 637047 bytes).
+Output written on main.pdf (8 pages, 636451 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -884,6 +894,19 @@ For additional information on amsmath, use the `?' option.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 45.
 
+
+
+*******************************************************
+Title exceeds size limitations for running head.
+Please supply a shorter form for the running head
+with \icmltitlerunning{...} prior to \begin{document}
+*******************************************************
+
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 45.
+
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd)
@@ -895,13 +918,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Ignoring empty anchor on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 13.
-
-) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-]
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
+(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
@@ -1181,5 +1199,5 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (8 pages, 637047 bytes).
+Output written on main.pdf (8 pages, 636451 bytes).
 Transcript written on main.log.

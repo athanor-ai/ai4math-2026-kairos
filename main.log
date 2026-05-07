@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  7 MAY 2026 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  7 MAY 2026 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -608,6 +608,19 @@ LaTeX Info: Redefining \nameref on input line 28.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 45.
 
+
+
+*******************************************************
+Title exceeds size limitations for running head.
+Please supply a shorter form for the running head
+with \icmltitlerunning{...} prior to \begin{document}
+*******************************************************
+
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 45.
+
 \c@@affil@anon=\count316
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
 5.
@@ -682,12 +695,8 @@ File: figures/kairo_pipeline.pdf Graphic file (type pdf)
 <use figures/kairo_pipeline.pdf>
 Package pdftex.def Info: figures/kairo_pipeline.pdf  used on input line 6.
 (pdftex.def)             Requested size: 439.03726pt x 413.75835pt.
-
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 13.
-
-) (./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -827,7 +836,7 @@ File: figures/fig_cross_paradigm.pdf Graphic file (type pdf)
 <use figures/fig_cross_paradigm.pdf>
 Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 162
 .
-(pdftex.def)             Requested size: 117.43875pt x 81.74382pt.
+(pdftex.def)             Requested size: 82.20856pt x 57.22067pt.
 
 ! LaTeX Error: Environment subfigure undefined.
 
@@ -1162,13 +1171,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 33ADD51A6544EAC1230981ADEB82DE7D;1185.
  ) 
 Here is how much of TeX's memory you used:
- 15982 strings out of 480247
- 259400 string characters out of 5896152
- 601141 words of memory out of 5000000
- 33428 multiletter control sequences out of 15000+600000
+ 15983 strings out of 480247
+ 259418 string characters out of 5896152
+ 601372 words of memory out of 5000000
+ 33429 multiletter control sequences out of 15000+600000
  536195 words of font info for 159 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,11n,77p,1001b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,77p,1001b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/l
@@ -1187,7 +1196,7 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (8 pages, 637047 bytes).
+Output written on main.pdf (8 pages, 636451 bytes).
 PDF statistics:
  864 PDF objects out of 1000 (max. 8388607)
  335 compressed objects within 4 object streams
