@@ -51,8 +51,11 @@ models downstream applications can safely rely on. The corrected
 actor--critic theorem provides a stronger foundation.
 
 \paragraph{Limitations.}
-Three Robbins--Monro-style content goals carry \texttt{sorry}
-proofs pending Mathlib's stochastic-approximation framework.
+The main convergence theorems (TD(0), SARSA(0), TD($\lambda$))
+are proved modulo a shared increment-summability lemma that
+encodes the Robbins--Monro stochastic-approximation theorem,
+pending upstream Mathlib formalization. Two Vogels--Sprekeler
+theorems were found to be false as stated and corrected.
 The simulation is calibrated on public data from one lab.
 The DAT-KO prediction has not yet been tested experimentally.
 The classifier's Hoeffding bound requires $n \ge 18$ independent
