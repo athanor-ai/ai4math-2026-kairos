@@ -35,9 +35,13 @@ in the replication package.
 
 
 
-The three \texttt{sorry} proofs (I1a, I2a, I3a) are Robbins--Monro
-convergence content goals pending Mathlib's stochastic-approximation
-framework. All main-text claims rest on the 11 closed theorems.
+The three Robbins--Monro convergence theorems (I1a, I2a, I3a) are
+proved modulo a shared increment-summability hypothesis that encodes
+the stochastic-approximation theorem, pending upstream Mathlib
+formalization. Additionally, the Vogels--Sprekeler convergence and
+stability theorems (J1a, J1c) were found to be \emph{false as stated}
+and corrected. The original actor--critic ablation target (I5a) was
+also found false; the corrected version is proved.
 
 \section{Simulation Parameters}
 \label{app:sim-params}
