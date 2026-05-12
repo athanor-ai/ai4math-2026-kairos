@@ -4,24 +4,24 @@
 \label{app:counterexample}
 
 \paragraph{Witness instantiation.}
-The following concrete values make the original (bound-free)
-statement of \texttt{actor\_critic\_two\_timescale\_converges} false:
-feature map $\psi(s, a, i) = \uparrow s$ (coercion $\mathbb{N} \to
-\mathbb{R}$; unbounded in $s$), step sizes $\alpha_w(t) = 1/(t+1)$
+The following concrete values falsify the original (bound-free)
+statement of \texttt{actor\_critic\_two\_timescale\_converges}.
+Set the feature map $\psi(s, a, i) = \uparrow s$ (coercion $\mathbb{N} \to
+\mathbb{R}$, unbounded in $s$), step sizes $\alpha_w(t) = 1/(t+1)$
 and $\alpha_\theta(t) = 1/((t+1)(1+\log(t+2)))$ (both Robbins-Monro),
 trajectory $\tau.\text{states}(t) = t$ (fresh state each step),
-rewards $\equiv 1$. Because each state is visited exactly once, the
-TD error is $\delta_k = 1$ for all $k$, and the actor accumulates
+and rewards $\equiv 1$. Because each state is visited exactly once, the
+TD error is $\delta_k = 1$ for all $k$. The actor then accumulates
 $\theta_t(0) = \sum_{k=1}^{t-1} k/((k+1)(1+\log(k+2))) \to \infty$.
 
 \paragraph{Corrected statement.}
 The revised theorem adds two summability hypotheses:
 \texttt{h\_critic\_summable} (summability of critic increments) and
-\texttt{h\_actor\_summable} (summability of actor increments). The
-Lean compiler's unused-variable linter flags three hypotheses as
+\texttt{h\_actor\_summable} (summability of actor increments).
+The Lean compiler's unused-variable linter flags three hypotheses as
 never referenced: $\gamma\lambda < 1$, $\alpha_\theta/\alpha_w \to 0$,
-and bounded rewards. All three are sufficient conditions that imply
-summability. None is necessary. The corrected theorem is therefore
+and bounded rewards. Each is a sufficient condition that implies
+summability, but none is necessary. The corrected theorem is therefore
 strictly stronger than the textbook version.
 
 \paragraph{Machine-check status.}
@@ -36,9 +36,9 @@ in the replication package.
 
 
 The three Robbins-Monro convergence theorems (I1a, I2a, I3a) are
-proved modulo a shared increment-summability hypothesis that encodes
-the stochastic-approximation theorem, pending upstream Mathlib
-formalization. Additionally, the Vogels-Sprekeler convergence and
+proved modulo a shared increment-summability hypothesis. This hypothesis
+encodes the stochastic-approximation theorem and awaits upstream
+Mathlib formalization. The Vogels-Sprekeler convergence and
 stability theorems (J1a, J1c) were found to be \emph{false as stated}
 and corrected. The original actor-critic ablation target (I5a) was
 also found false. The corrected version is proved.

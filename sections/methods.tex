@@ -28,7 +28,7 @@ single-session attempt would not suffice.
 The fleet covers six modalities, each targeting a distinct failure
 mode:
 \begin{enumerate}[leftmargin=1.5em,itemsep=0.1em]
-\item \textbf{Lean~4 algebraic proof.} Encodes each candidate rule
+\item \textbf{Lean 4 algebraic proof.} Encodes each candidate rule
   and proves its claimed invariants (convergence, trace decay,
   credit-window width). Catches structural errors: wrong convergence
   rate, missing hypothesis, vacuous closure.
@@ -63,6 +63,6 @@ We apply the fleet to four candidate dopamine credit-assignment
 rules: TD($\lambda$) with eligibility traces, action-prediction
 error (APE), Rescorla-Wagner (following \citet{markowitz2023spontaneous}),
 and time-magnitude rank-4 distributional RL (TMRL,
-\citet{sousa2025tmrl}). Each rule is encoded in Lean~4 with a
+\citet{sousa2025tmrl}). Each rule is encoded in Lean 4 with a
 shared substrate: state and action are finite types, rewards are
 real-valued, and a policy is a mapping $s \mapsto \mathrm{PMF}(a)$.

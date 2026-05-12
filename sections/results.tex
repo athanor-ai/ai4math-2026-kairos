@@ -19,7 +19,7 @@ counterexample: feature map $\psi(s,a,i) = s$ on state
 $\mathbb{N}$ with Robbins-Monro step sizes causes the actor
 iterate to diverge. The corrected statement under summability
 hypotheses on the actor and critic increments machine-checks
-in Lean~4 with zero \texttt{sorry} (all 18 theorems closed,
+in Lean 4 with zero sorry (all 18 theorems closed,
 with the stochastic-approximation infrastructure included in
 the self-contained artifact). The corrected theorem is strictly
 stronger: the bounded-reward hypothesis, step-size ratio
@@ -67,8 +67,8 @@ $\tau_c \in [2.70, 2.82]$\,s.
 
 \paragraph{Falsifiable prediction.}
 The analytic credit-window bound predicts closed-form the credit-window shift in
-mice with genetically reduced dopamine-transporter (DAT) function
-(DAT-KO): the
+mice with genetically reduced dopamine-transporter (DAT) activity
+(DAT knockout, DAT-KO): the
 eligibility-trace half-decay $\tau_c \propto (1 - \gamma\lambda)^{-1}$,
 and slower dopamine clearance increases the effective $\lambda$.
 The predicted shift $\Delta\tau_c \approx 0.4$\,s is testable
@@ -186,7 +186,7 @@ the empirical half-decay across the $\lambda$ sweep.}
 A closed-form Lean theorem gives a closed-form jitter threshold
 $\tau_{\min}^{*}(T_{\text{obs}}, H_Q) = T_{\text{obs}} /
 \sqrt{4\pi e\,(2^{2 H_Q} - 1)}$, rule-family-independent,
-machine-checked in Lean~4 with no empirical inputs. The Brian~2
+machine-checked in Lean 4 with no empirical inputs. The Brian~2
 jitter sweep gives an empirical upper bound $\tau^{*} \approx 1$\,s.
 The gap $\tau^{*} - \tau_{\min}^{*}$ constrains the admissible
 jitter to a narrow band.
@@ -203,5 +203,5 @@ calibration.
 \paragraph{Case 4: behavioral classifier.}
 From six pairwise witnesses, Kairos constructs a Lean-checked
 classifier with $\Pr[\text{error}] \le 6\,e^{-n/18}$ via Hoeffding.
-Synthetic recovery reaches $100\%$ at $n = 100$; on published data
+Synthetic recovery reaches $100\%$ at $n = 100$. On published data
 the classifier returns the correct paradigm on $4/4$.

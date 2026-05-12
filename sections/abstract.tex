@@ -1,23 +1,22 @@
 \begin{abstract}
 When an animal receives a reward, the brain must determine which
-past actions caused it, a problem known as \emph{credit
-assignment}. Neuroscience models this process using
-reinforcement-learning (RL) algorithms whose convergence proofs
-are cited from the mathematics literature but rarely re-checked
-in the form they are used. We show that a widely-cited
-convergence theorem for actor-critic learning is false in its
-commonly-retold form: a missing boundedness assumption allows the
-learning process to diverge. The corrected statement machine-checks in Lean~4 with zero
-\texttt{sorry} across all 18 theorems in a self-contained
-artifact. We built \textsc{Kairos}, a multi-agent
-system that verifies scientific claims against a formal proof,
-randomized tests, and a neural simulation calibrated on published
-data. Applied to dopamine-dependent credit assignment, \textsc{Kairos}
-fits experimental behavioral data to $4.4\%$ error ($n = 55$
-actions), collapses a reported slow-versus-fast learner dichotomy
-into a single continuous population ($n = 14$), and predicts in
-closed form a testable shift in credit-window timing for
-genetically modified mice. The approach generalizes to any
-scientific claim that inherits a formal guarantee from a cited
-theorem.
+past actions caused it, a problem known as credit assignment.
+Neuroscience models this process using reinforcement-learning (RL)
+algorithms whose convergence proofs are cited from the mathematics
+literature but rarely re-checked in the form they are used. We
+show that a widely-cited convergence theorem for actor-critic
+learning is false in its commonly-retold form: a missing
+boundedness assumption allows the learning process to diverge.
+The corrected statement machine-checks in Lean 4 with zero
+unproved obligations across all 18 theorems in a self-contained
+artifact. We built Kairos, a multi-agent system that verifies
+scientific claims against a formal proof, randomized tests, and a
+neural simulation calibrated on published data. Applied to
+dopamine-dependent credit assignment, Kairos fits experimental
+behavioral data to $4.4\%$ error ($n = 55$ actions), collapses a
+reported slow-versus-fast learner dichotomy into a single
+continuous population ($n = 14$), and predicts in closed form a
+testable shift in credit-window timing for genetically modified
+mice. The approach generalizes to any scientific claim that
+inherits a formal guarantee from a cited theorem.
 \end{abstract}
