@@ -32,9 +32,10 @@ mode:
   and proves its claimed invariants (convergence, trace decay,
   credit-window width). Catches structural errors: wrong convergence
   rate, missing hypothesis, vacuous closure.
-\item \textbf{Property-based testing.} Hypothesis draws parameter
-  tuples from the modelled regime and shrinks any falsifying sample.
-  Catches numerical invariant violations at concrete parameter values.
+\item \textbf{Property-based testing.} Hypothesis (the Python PBT
+  library) draws parameter tuples from the modelled regime and shrinks
+  any falsifying sample. Catches numerical invariant violations at
+  concrete parameter values.
 \item \textbf{Paradigm-replay simulation.} Re-implements each rule
   in Brian~2 under the \citet{tang2024dynamic} closed-loop paradigm.
   Catches behavioral mismatches: wrong credit-window width, wrong

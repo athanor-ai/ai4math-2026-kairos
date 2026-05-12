@@ -2,14 +2,15 @@
 \label{sec:results}
 
 \paragraph{Formal refutation of TD(0).}
-Theorem~I1c states that TD(0) applied to a single-event
-trajectory leaves $V(x)$ unchanged for all $x \ne s$.
-Tang et al.\ report a seconds-scale credit window.
-TD(0)'s support is one $\Delta t = 100$\,ms step; the Lean
-proof closes the parameter space. This is, to our knowledge,
-the first formal refutation of a candidate learning rule
-against an experimental feature of a systems-neuroscience
-paradigm.
+Temporal-difference learning with no trace (TD(0)) updates only the
+value of the most recent state. Theorem~I1c states that TD(0)
+applied to a single-event trajectory leaves $V(x)$ unchanged for
+all $x \ne s$. Tang et al.\ report a seconds-scale credit window
+spanning multiple actions. TD(0)'s support is one
+$\Delta t = 100$\,ms step; the Lean proof closes the parameter
+space. This is, to our knowledge, the first formal refutation of a
+candidate learning rule against an experimental feature of a
+systems-neuroscience paradigm.
 
 \paragraph{Corrected actor--critic theorem.}
 The textbook retelling of \citet{kondatsitsiklis2000} drops
@@ -18,13 +19,12 @@ counterexample: feature map $\psi(s,a,i) = s$ on state
 $\mathbb{N}$ with Robbins--Monro step sizes causes the actor
 iterate to diverge. The corrected statement under summability
 hypotheses on the actor and critic increments machine-checks
-in Lean~4 (15 of 18 theorems closed; the 3 Robbins--Monro
-convergence theorems are proved modulo a shared
-increment-summability hypothesis encoding the SA theorem;
-the underlying infrastructure is proved separately in Pythia). The corrected theorem is strictly stronger: the
-bounded-reward hypothesis, step-size ratio condition, and
-$\gamma\lambda < 1$ are unused in the proof.
-
+in Lean~4 (15 of 18 theorems closed; the remaining 3
+are proved modulo a shared increment-summability hypothesis
+encoding the stochastic-approximation theorem, proved
+separately in Pythia). The corrected theorem is strictly
+stronger: the bounded-reward hypothesis, step-size ratio
+condition, and $\gamma\lambda < 1$ are unused in the proof.
 
 
 \paragraph{Simulation fidelity.}
@@ -144,17 +144,14 @@ public data.} (a)~Tang per-action $\tau_c$ ($n=55$, CV $47.8\%$).
 \label{fig:cross-paradigm}
 \end{figure*}
 
-\paragraph{Simulation fidelity (4-panel).}
+\paragraph{Simulation fidelity.}
 Figure~\ref{fig:sim-fidelity} reports three behavioral observables
-from Tang et al.\ across 100 seeds and the $(\gamma = 0.99,
-\Delta t = 0.1)$ $\lambda$ sweep. Actor-critic with the annealing
-RBF kernel is the only rule that reproduces all three: the
-seconds-scale credit kernel (panel a), the monotone repertoire-entropy
-decrease (panel b), and the stage-to-stage similarity narrowing
-(panel c). Panel (d) shows that the analytic half-decay from
-Theorem~I2e tracks the 100-seed empirical half-decay across the
-full $\lambda$ sweep to within a factor of 1.5. TD(0) and SARSA(0)
-produce near-flat kernels consistent with their one-step support.
+across 100 seeds. Actor-critic with the annealing RBF kernel is
+the only rule reproducing all three: the seconds-scale credit
+kernel (a), repertoire-entropy decrease (b), and similarity
+narrowing (c). The analytic half-decay (Theorem~I2e) tracks the
+empirical half-decay across the $\lambda$ sweep to within a factor
+of 1.5 (d).
 
 \begin{figure*}[!htbp]
 \centering
@@ -207,10 +204,7 @@ quantile at every state. $K_{\min} = 2$ exactly, with no empirical
 calibration.
 
 \paragraph{Case 4: behavioral classifier.}
-From the six pairwise witnesses, Kairos constructs a Lean-checked
-classifier. \texttt{classifier\_consistent} gives
-$\Pr[\text{classifier}(d) \ne r] \le 6\,e^{-n/18}$ via Hoeffding
-at sign margin $\mu \ge 1/3$. Synthetic recovery reaches $100\%$
-at $n = 100$. Applied to published summary statistics from the
-four paradigms, the classifier returns the paradigm of origin
-on $4/4$.
+From six pairwise witnesses, Kairos constructs a Lean-checked
+classifier with $\Pr[\text{error}] \le 6\,e^{-n/18}$ via Hoeffding.
+Synthetic recovery reaches $100\%$ at $n = 100$; on published data
+the classifier returns the correct paradigm on $4/4$.

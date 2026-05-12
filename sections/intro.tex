@@ -14,19 +14,21 @@ Theorem~I2e upper, $4.4\%$ gap).}
 \label{fig:orchestration}
 \end{figure*}
 
-The brain assigns credit to past actions through midbrain dopamine.
-Computational models frame this as a reinforcement-learning problem:
-a \emph{credit window} is the time interval over which a reward
-signal propagates backward to influence preceding actions, and an
-\emph{eligibility trace} is the decaying weight that controls this
-propagation. Candidate rules inherit convergence guarantees from
-RL theorems, but those theorems are rarely
-re-checked against the form in which they appear in neuroscience
-prose. The two-timescale actor--critic convergence theorem of
-\citet{kondatsitsiklis2000} has been cited for twenty-six years as
-the algorithmic account of tonic-phasic dopamine dynamics. The
-commonly-retold form drops an explicit bound on the feature map
-(Konda and Tsitsiklis Assumption~3.1(a)). We show this retold
+When an animal receives a reward, the brain must determine which
+of its recent actions caused it. Midbrain dopamine neurons broadcast
+a reward-prediction error that serves as the teaching signal.
+Computational models frame this \emph{credit-assignment} problem
+in the language of reinforcement learning: a \emph{credit window}
+is the time interval over which the reward signal propagates
+backward to influence preceding actions, and an \emph{eligibility
+trace} is the decaying weight that controls this propagation.
+Candidate rules inherit convergence guarantees from RL theorems,
+but those theorems are rarely re-checked against the form in which
+they appear in neuroscience prose. The two-timescale actor--critic
+convergence theorem of \citet{kondatsitsiklis2000} has been cited
+for twenty-six years as the algorithmic account of dopamine-driven
+learning. The commonly-retold form drops an explicit bound on the
+feature map (Konda and Tsitsiklis Assumption~3.1(a)). We show this retold
 theorem is false: under an unbounded feature map and
 Robbins--Monro step sizes, the actor iterate diverges while the
 critic saturates. A corrected statement under summability
