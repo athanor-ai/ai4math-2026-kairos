@@ -7,17 +7,17 @@ L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/tmp/ai4math-2026-kairos/styles/icml2026.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/icml2026.sty
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
-(/tmp/ai4math-2026-kairos/styles/fancyhdr.sty)
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))
-(/tmp/ai4math-2026-kairos/styles/algorithm.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithm.sty
 Document Style `algorithm' - floating environment
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-(/tmp/ai4math-2026-kairos/styles/algorithmic.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithmic.sty
 Document Style `algorithmic' - environment
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
@@ -107,55 +107,57 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 Package hyperref Warning: Ignoring empty anchor on input line 49.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
-(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./figures/kairo_pipeline.pdf>]
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex [1{/var/lib/t
+exmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/kairo_pipeline.pdf>])
+(./sections/methods.tex
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
-Underfull \hbox (badness 1314) in paragraph at lines 38--42
+Underfull \hbox (badness 1314) in paragraph at lines 39--43
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [3]
-Underfull \hbox (badness 2818) in paragraph at lines 192--199
- \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-) (./sections/discussion.tex [4] [5 <./figures/fig_tang_per_animal.pdf> <./figu
-res/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pdf> <./
-figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figures/fig_cross_paradigm.pdf>]
-[7 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
-_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>]) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
+) (./sections/results.tex [3]) (./sections/discussion.tex [4] [5 <./figures/fig
+_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tan
+g_zenodo_calibration.pdf> <./figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figur
+es/fig_cross_paradigm.pdf>] [7 <./figures/fig_credit_kernel.pdf> <./figures/fig
+_entropy.pdf> <./figures/fig_similarity.pdf> <./figures/fig_credit_window_sweep
+.pdf>])
+Underfull \hbox (badness 6559) in paragraph at lines 44--56
+ \OT1/lmr/bx/sc/10 (+20) Lim-i-ta-tions.[] \OT1/lmr/m/n/10 (+20) The main con-v
+er-gence the-o-rems
+(./main.bbl
+Underfull \hbox (badness 1189) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
 articles /
 
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
+Underfull \hbox (badness 4726) in paragraph at lines 23--34
 \OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
 ta at Zen-
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 []$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
 
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[8]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -185,20 +187,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-)
-Underfull \vbox (badness 10000) has occurred while \output is active [9]
-(./main.aux)
+) [9] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
@@ -214,7 +211,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (9 pages, 635925 bytes).
+Output written on main.pdf (9 pages, 635416 bytes).
 Transcript written on main.log.
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 The top-level auxiliary file: main.aux
@@ -229,17 +226,17 @@ L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/tmp/ai4math-2026-kairos/styles/icml2026.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/icml2026.sty
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
-(/tmp/ai4math-2026-kairos/styles/fancyhdr.sty)
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))
-(/tmp/ai4math-2026-kairos/styles/algorithm.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithm.sty
 Document Style `algorithm' - floating environment
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-(/tmp/ai4math-2026-kairos/styles/algorithmic.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithmic.sty
 Document Style `algorithmic' - environment
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
@@ -329,55 +326,57 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 Package hyperref Warning: Ignoring empty anchor on input line 49.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
-(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./figures/kairo_pipeline.pdf>]
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex [1{/var/lib/t
+exmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/kairo_pipeline.pdf>])
+(./sections/methods.tex
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
-Underfull \hbox (badness 1314) in paragraph at lines 38--42
+Underfull \hbox (badness 1314) in paragraph at lines 39--43
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [3]
-Underfull \hbox (badness 2818) in paragraph at lines 192--199
- \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-) (./sections/discussion.tex [4] [5 <./figures/fig_tang_per_animal.pdf> <./figu
-res/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pdf> <./
-figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figures/fig_cross_paradigm.pdf>]
-[7 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
-_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>]) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
+) (./sections/results.tex [3]) (./sections/discussion.tex [4] [5 <./figures/fig
+_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tan
+g_zenodo_calibration.pdf> <./figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figur
+es/fig_cross_paradigm.pdf>] [7 <./figures/fig_credit_kernel.pdf> <./figures/fig
+_entropy.pdf> <./figures/fig_similarity.pdf> <./figures/fig_credit_window_sweep
+.pdf>])
+Underfull \hbox (badness 6559) in paragraph at lines 44--56
+ \OT1/lmr/bx/sc/10 (+20) Lim-i-ta-tions.[] \OT1/lmr/m/n/10 (+20) The main con-v
+er-gence the-o-rems
+(./main.bbl
+Underfull \hbox (badness 1189) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
 articles /
 
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
+Underfull \hbox (badness 4726) in paragraph at lines 23--34
 \OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
 ta at Zen-
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 []$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
 
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[8]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -407,17 +406,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-)
-Underfull \vbox (badness 10000) has occurred while \output is active [9]
-(./main.aux)
+) [9] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
@@ -433,7 +430,7 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (9 pages, 635925 bytes).
+Output written on main.pdf (9 pages, 635416 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -444,17 +441,17 @@ L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/tmp/ai4math-2026-kairos/styles/icml2026.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/icml2026.sty
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
-(/tmp/ai4math-2026-kairos/styles/fancyhdr.sty)
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))
-(/tmp/ai4math-2026-kairos/styles/algorithm.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithm.sty
 Document Style `algorithm' - floating environment
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-(/tmp/ai4math-2026-kairos/styles/algorithmic.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithmic.sty
 Document Style `algorithmic' - environment
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
@@ -544,55 +541,57 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 Package hyperref Warning: Ignoring empty anchor on input line 49.
 
 (/usr/share/texmf/tex/latex/lm/omllmr.fd) (./sections/abstract.tex
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex)
-(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./figures/kairo_pipeline.pdf>]
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd)) (./sections/intro.tex [1{/var/lib/t
+exmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/kairo_pipeline.pdf>])
+(./sections/methods.tex
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
 
-Underfull \hbox (badness 1314) in paragraph at lines 38--42
+Underfull \hbox (badness 1314) in paragraph at lines 39--43
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
-) (./sections/results.tex [3]
-Underfull \hbox (badness 2818) in paragraph at lines 192--199
- \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
-) (./sections/discussion.tex [4] [5 <./figures/fig_tang_per_animal.pdf> <./figu
-res/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pdf> <./
-figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figures/fig_cross_paradigm.pdf>]
-[7 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
-_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>]) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
+) (./sections/results.tex [3]) (./sections/discussion.tex [4] [5 <./figures/fig
+_tang_per_animal.pdf> <./figures/fig_mutation_kill_rate.pdf> <./figures/fig_tan
+g_zenodo_calibration.pdf> <./figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figur
+es/fig_cross_paradigm.pdf>] [7 <./figures/fig_credit_kernel.pdf> <./figures/fig
+_entropy.pdf> <./figures/fig_similarity.pdf> <./figures/fig_credit_window_sweep
+.pdf>])
+Underfull \hbox (badness 6559) in paragraph at lines 44--56
+ \OT1/lmr/bx/sc/10 (+20) Lim-i-ta-tions.[] \OT1/lmr/m/n/10 (+20) The main con-v
+er-gence the-o-rems
+(./main.bbl
+Underfull \hbox (badness 1189) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
 articles /
 
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
+Underfull \hbox (badness 4726) in paragraph at lines 23--34
 \OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
 ta at Zen-
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 []$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
 
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
-) (./sections/appendix.tex
+[8]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -622,17 +621,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 \OT1/lmtt/m/n/10 lean/CreditAssignment/ActorCritic.lean \OT1/lmr/m/n/10 (+20) i
 n
-)
-Underfull \vbox (badness 10000) has occurred while \output is active [9]
-(./main.aux)
+) [9] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
@@ -648,5 +645,5 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on main.pdf (9 pages, 635925 bytes).
+Output written on main.pdf (9 pages, 635416 bytes).
 Transcript written on main.log.

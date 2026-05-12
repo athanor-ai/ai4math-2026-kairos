@@ -19,11 +19,9 @@ counterexample: feature map $\psi(s,a,i) = s$ on state
 $\mathbb{N}$ with Robbins--Monro step sizes causes the actor
 iterate to diverge. The corrected statement under summability
 hypotheses on the actor and critic increments machine-checks
-in Lean~4 (15 of 18 theorems closed; the remaining 3
-are proved modulo a shared increment-summability hypothesis
-encoding the stochastic-approximation theorem, proved
-separately in a foundational Lean~4 library included in the
-artifact). The corrected theorem is strictly
+in Lean~4 with zero \texttt{sorry} (all 18 theorems closed;
+the stochastic-approximation infrastructure is included in
+the self-contained artifact). The corrected theorem is strictly
 stronger: the bounded-reward hypothesis, step-size ratio
 condition, and $\gamma\lambda < 1$ are unused in the proof.
 

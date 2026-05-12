@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  7 MAY 2026 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.4.8)  12 MAY 2026 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,13 +23,13 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(/tmp/ai4math-2026-kairos/styles/icml2026.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/icml2026.sty
 Package: icml2026 2025/10/29 v2.0 ICML Conference Style File
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(/tmp/ai4math-2026-kairos/styles/fancyhdr.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip49
@@ -69,7 +69,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(/tmp/ai4math-2026-kairos/styles/algorithm.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithm.sty
 Package: algorithm 
 
 Document Style `algorithm' - floating environment
@@ -87,7 +87,7 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks19
 \c@algorithm=\count194
 )
-(/tmp/ai4math-2026-kairos/styles/algorithmic.sty
+(/home/azureuser/agents/research/ai4math-2026-kairos/styles/algorithmic.sty
 Package: algorithmic 
 
 Document Style `algorithmic' - environment
@@ -679,7 +679,7 @@ LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <9> not available
 (Font)              Font shape `OML/lmm/m/it' tried instead on input line 49.
  (./sections/abstract.tex
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-10.
+11.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -689,141 +689,141 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) (./sections/intro.tex
-<figures/kairo_pipeline.pdf, id=40, 1192.455pt x 1123.79848pt>
+<figures/kairo_pipeline.pdf, id=36, 1192.455pt x 1123.79848pt>
 File: figures/kairo_pipeline.pdf Graphic file (type pdf)
 <use figures/kairo_pipeline.pdf>
 Package pdftex.def Info: figures/kairo_pipeline.pdf  used on input line 6.
 (pdftex.def)             Requested size: 439.03726pt x 413.75835pt.
-)
-(./sections/methods.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-]
-[2 <./figures/kairo_pipeline.pdf>]
+] [2 <./figures/kairo_pipeline.pdf>])
+(./sections/methods.tex
 Underfull \hbox (badness 3449) in paragraph at lines 22--26
  \OT1/lmr/bx/n/10 (+20) Per-sis-tent shared con-text.[] \OT1/lmr/m/n/10 (+20) A
 gents main-tain
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 38--42
+Underfull \hbox (badness 1314) in paragraph at lines 39--43
 \OT1/lmr/m/n/10 (+20) each rule in Brian 2 un-der the []Tang et al.[]
  []
 
 ) (./sections/results.tex [3]
-<figures/fig_tang_per_animal.pdf, id=143, 774.63965pt x 279.79718pt>
+<figures/fig_tang_per_animal.pdf, id=140, 774.63965pt x 279.79718pt>
 File: figures/fig_tang_per_animal.pdf Graphic file (type pdf)
 <use figures/fig_tang_per_animal.pdf>
-Package pdftex.def Info: figures/fig_tang_per_animal.pdf  used on input line 51
+Package pdftex.def Info: figures/fig_tang_per_animal.pdf  used on input line 50
 .
 (pdftex.def)             Requested size: 365.86687pt x 132.14935pt.
-<figures/fig_mutation_kill_rate.pdf, id=145, 888.13808pt x 457.93616pt>
+<figures/fig_mutation_kill_rate.pdf, id=142, 888.13808pt x 457.93616pt>
 File: figures/fig_mutation_kill_rate.pdf Graphic file (type pdf)
 <use figures/fig_mutation_kill_rate.pdf>
 Package pdftex.def Info: figures/fig_mutation_kill_rate.pdf  used on input line
- 87.
+ 86.
 (pdftex.def)             Requested size: 292.69647pt x 150.91675pt.
-<figures/fig_tang_zenodo_calibration.pdf, id=147, 808.62698pt x 304.43889pt>
+<figures/fig_tang_zenodo_calibration.pdf, id=144, 808.62698pt x 304.43889pt>
 File: figures/fig_tang_zenodo_calibration.pdf Graphic file (type pdf)
 <use figures/fig_tang_zenodo_calibration.pdf>
 Package pdftex.def Info: figures/fig_tang_zenodo_calibration.pdf  used on input
- line 109.
+ line 108.
 (pdftex.def)             Requested size: 234.15271pt x 88.15494pt.
-<figures/fig_tang_fig5d_narrowing.pdf, id=148, 699.37225pt x 285.77744pt>
+<figures/fig_tang_fig5d_narrowing.pdf, id=145, 699.37225pt x 285.77744pt>
 File: figures/fig_tang_fig5d_narrowing.pdf Graphic file (type pdf)
 <use figures/fig_tang_fig5d_narrowing.pdf>
 Package pdftex.def Info: figures/fig_tang_fig5d_narrowing.pdf  used on input li
-ne 116.
+ne 115.
 (pdftex.def)             Requested size: 234.15271pt x 95.68044pt.
-<figures/fig_cross_paradigm.pdf, id=156, 721.94315pt x 502.5494pt>
+<figures/fig_cross_paradigm.pdf, id=153, 721.94315pt x 502.5494pt>
 File: figures/fig_cross_paradigm.pdf Graphic file (type pdf)
 <use figures/fig_cross_paradigm.pdf>
-Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 138
+Package pdftex.def Info: figures/fig_cross_paradigm.pdf  used on input line 133
 .
 (pdftex.def)             Requested size: 414.65208pt x 288.64159pt.
-<figures/fig_credit_kernel.pdf, id=158, 345.24362pt x 235.55869pt>
+<figures/fig_credit_kernel.pdf, id=155, 345.24362pt x 235.55869pt>
 File: figures/fig_credit_kernel.pdf Graphic file (type pdf)
 <use figures/fig_credit_kernel.pdf>
-Package pdftex.def Info: figures/fig_credit_kernel.pdf  used on input line 163.
+Package pdftex.def Info: figures/fig_credit_kernel.pdf  used on input line 155.
 
 (pdftex.def)             Requested size: 234.15271pt x 159.76443pt.
-<figures/fig_entropy.pdf, id=159, 337.8968pt x 235.61198pt>
+<figures/fig_entropy.pdf, id=156, 337.8968pt x 235.61198pt>
 File: figures/fig_entropy.pdf Graphic file (type pdf)
 <use figures/fig_entropy.pdf>
-Package pdftex.def Info: figures/fig_entropy.pdf  used on input line 168.
+Package pdftex.def Info: figures/fig_entropy.pdf  used on input line 160.
 (pdftex.def)             Requested size: 234.15271pt x 163.27348pt.
-<figures/fig_similarity.pdf, id=160, 443.51993pt x 212.87845pt>
+<figures/fig_similarity.pdf, id=157, 443.51993pt x 212.87845pt>
 File: figures/fig_similarity.pdf Graphic file (type pdf)
 <use figures/fig_similarity.pdf>
-Package pdftex.def Info: figures/fig_similarity.pdf  used on input line 176.
+Package pdftex.def Info: figures/fig_similarity.pdf  used on input line 168.
 (pdftex.def)             Requested size: 234.15271pt x 112.3865pt.
-<figures/fig_credit_window_sweep.pdf, id=161, 1065.15176pt x 378.15755pt>
+<figures/fig_credit_window_sweep.pdf, id=158, 1065.15176pt x 378.15755pt>
 File: figures/fig_credit_window_sweep.pdf Graphic file (type pdf)
 <use figures/fig_credit_window_sweep.pdf>
 Package pdftex.def Info: figures/fig_credit_window_sweep.pdf  used on input lin
-e 181.
+e 173.
 (pdftex.def)             Requested size: 234.15271pt x 83.12567pt.
-
-Underfull \hbox (badness 2818) in paragraph at lines 192--199
- \OT1/lmr/bx/n/10 (+20) Case 2: spike-timing pre-ci-sion sand-wich.[]
- []
-
 ) (./sections/discussion.tex [4] [5 <./figures/fig_tang_per_animal.pdf> <./figu
 res/fig_mutation_kill_rate.pdf> <./figures/fig_tang_zenodo_calibration.pdf> <./
-figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figures/fig_cross_paradigm.pdf>]
-[7 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig
-_similarity.pdf> <./figures/fig_credit_window_sweep.pdf>]) (./main.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 11--22
+figures/fig_tang_fig5d_narrowing.pdf>] [6 <./figures/fig_cross_paradigm.pdf>] [
+7 <./figures/fig_credit_kernel.pdf> <./figures/fig_entropy.pdf> <./figures/fig_
+similarity.pdf> <./figures/fig_credit_window_sweep.pdf>])
+Underfull \hbox (badness 6559) in paragraph at lines 44--56
+ \OT1/lmr/bx/sc/10 (+20) Lim-i-ta-tions.[] \OT1/lmr/m/n/10 (+20) The main con-v
+er-gence the-o-rems
+ []
+
+(./main.bbl
+Underfull \hbox (badness 1189) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) 1342, 2025.  doi: $10 . 1038 / s41586-[]025-[]09008-[]9$.
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) URL []$\OT1/lmtt/m/n/10 https : / / www . nature . com / 
 articles /
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 11--22
+Underfull \hbox (badness 4726) in paragraph at lines 23--34
 \OT1/lmtt/m/n/10 s41586-[]025-[]09008-[]9$[]\OT1/lmr/m/n/10 (+20) .  Pub-lic da
 ta at Zen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \OT1/lmr/m/n/10 (+20) odo 10.5281/zen-odo.15103778; code at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--34
 []$\OT1/lmtt/m/n/10 https : / / github . com / SainsburyWellcomeCentre /
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 30--36
+Underfull \hbox (badness 2884) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) re-ward.  \OT1/lmr/m/it/10 (+20) Na-ture\OT1/lmr/m/n/10 (
 +20) , 614:108--117, 2023.  Pub-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) lic data at Zen-odo 10.5281/zen-odo.7274803;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 \OT1/lmr/m/n/10 (+20) code at []$\OT1/lmtt/m/n/10 https : / / github . com / da
 ttalab /
  []
 
-) (./sections/appendix.tex
+[8]) (./sections/appendix.tex
 Underfull \hbox (badness 1067) in paragraph at lines 7--16
 \OT1/lmr/m/n/10 (+20) ues make the orig-i-nal (bound-free) state-ment of
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--26
  \OT1/lmr/bx/sc/10 (+20) Cor-rected state-ment.[] \OT1/lmr/m/n/10 (+20) The re-
 vised the-
@@ -869,11 +869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 n
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-(./main.aux)
+) [9] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -881,16 +877,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 33ADD51A6544EAC1230981ADEB82DE7D;1185.
  ) 
 Here is how much of TeX's memory you used:
- 16104 strings out of 480247
- 261955 string characters out of 5896152
- 598912 words of memory out of 5000000
- 33529 multiletter control sequences out of 15000+600000
- 536928 words of font info for 166 fonts, out of 8000000 for 9000
+ 16101 strings out of 480247
+ 262225 string characters out of 5896152
+ 598170 words of memory out of 5000000
+ 33533 multiletter control sequences out of 15000+600000
+ 536530 words of font info for 162 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,11n,77p,1001b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/l
 m/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texm
 f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/font
@@ -906,10 +902,10 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 635925 bytes).
+Output written on main.pdf (9 pages, 635416 bytes).
 PDF statistics:
  870 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 43 named destinations out of 1000 (max. 500000)
  36467 words of extra memory for PDF output out of 42996 (max. 10000000)
 
