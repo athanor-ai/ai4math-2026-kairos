@@ -3,7 +3,7 @@
 
 \paragraph{Formal refutation of TD(0).}
 Temporal-difference learning with no trace (TD(0)) updates only the
-value of the most recent state. Theorem~I1c states that TD(0)
+value of the most recent state. The TD(0) one-step-support result states that TD(0)
 applied to a single-event trajectory leaves $V(x)$ unchanged for
 all $x \ne s$. Tang et al.\ report a seconds-scale credit window
 spanning multiple actions. TD(0)'s support is one
@@ -33,7 +33,7 @@ Actor--critic with the annealing RBF kernel is the only rule
 that reproduces all three Tang et al.\ behavioral observables
 across 100 seeds. The seconds-scale credit window is reproduced
 by $\lambda \in [0.9, 0.97]$ and falsified for $\lambda < 0.7$.
-The analytic (Theorem~I2e) and empirical half-decays agree to
+The analytic bound and empirical half-decays agree to
 within a factor of 1.5.
 
 \paragraph{Per-animal re-analysis.}
@@ -44,7 +44,7 @@ and the gap-to-within-group-spread ratio is $-1.10$. The
 per-action $\tau_c$ distribution has coefficient of variation
 $47.8\%$ (range $0.30$--$6.90$\,s), incompatible with a
 single-universal-$\tau_c$ rule at $\alpha = 0.05$. The analytic
-Theorem~I2e value $\tau_c = 2.82$\,s sits at the median of the
+$\tau_c = 2.82$\,s sits at the median of the
 $n=14$ per-animal distribution (Fig.~\ref{fig:per-animal}).
 
 \begin{figure*}[!htbp]
@@ -52,7 +52,7 @@ $n=14$ per-animal distribution (Fig.~\ref{fig:per-animal}).
 \includegraphics[width=0.75\linewidth]{figures/fig_tang_per_animal.pdf}
 \caption{Per-animal $\tau_c$ distribution ($n=14$). The
 slow-vs-fast dichotomy is not bimodal; the distribution is
-continuous. Theorem~I2e prediction (dashed) sits at the median.}
+continuous. Analytic prediction (dashed) sits at the median.}
 \label{fig:per-animal}
 \end{figure*}
 
@@ -62,12 +62,12 @@ four rule families on public data. Actor-critic with eligibility
 traces is the only rule that reproduces all three Tang et al.\
 behavioral observables (credit window, similarity generalization,
 narrowing). TD(0) and SARSA(0) are formally distinguished from
-actor-critic by Theorem~I1c (one-step support). APE and TMRL are
+actor-critic by the one-step-support proof. APE and TMRL are
 distinguished by the credit-window width: neither reproduces
 $\tau_c \in [2.70, 2.82]$\,s.
 
 \paragraph{Falsifiable prediction.}
-Theorem~I2e predicts closed-form the credit-window shift in
+The analytic credit-window bound predicts closed-form the credit-window shift in
 mice with genetically reduced dopamine reuptake (DAT-KO): the
 eligibility-trace half-decay $\tau_c \propto (1 - \gamma\lambda)^{-1}$,
 and slower dopamine clearance increases the effective $\lambda$.
@@ -94,12 +94,12 @@ achieves full coverage.}
 \end{figure*}
 
 \paragraph{Empirical calibration.}
-Figure~\ref{fig:calibration} calibrates Theorem~I2e against two
+Figure~\ref{fig:calibration} calibrates the analytic credit-window bound against two
 independent Tang et al.\ observables. The credit-window median
 $\tau_c$ at $(\gamma, \lambda, \Delta t) = (0.970, 0.995, 0.100)$
 gives $\tau_c^{\text{analytic}} = 2.82$\,s against empirical
 $2.70$\,s ($n = 55$ action types), a $4.4\%$ error. The
-per-animal narrowing rate (Theorem~I5d) gives $c = 0.630$ against
+per-animal narrowing rate from the narrowing-rate bound gives $c = 0.630$ against
 the slow-learner fit $c = 0.613 \pm 0.079$ ($n = 7$), within
 $2.7\%$.
 
@@ -118,21 +118,17 @@ $2.7\%$.
  \caption{Narrowing-rate calibration against Tang Fig.~5d.
  Per-animal slow ($n=7$) and fast ($n=7$) learners.}
 \end{subfigure}
-\caption{\textbf{Kairos Theorem~I2e predicts the Tang credit-window
-median to $4.4\%$ and the narrowing rate to $2.7\%$.}}
+\caption{\textbf{The analytic credit-window bound predicts the Tang
+credit-window median to $4.4\%$ and the narrowing rate to $2.7\%$.}}
 \label{fig:calibration}
 \end{figure*}
 
 \paragraph{Cross-paradigm transfer.}
 The infrastructure ports to three further theory families without
-modification: \citet{sousa2025tmrl} rank-4 time-magnitude
-distributional RL (U1a--c, bound verified on $n = 43$ opto-identified
-DANs); \citet{greenstreet2025value} value-free APE (V1a--c, V1b
-passes $59/59$ sessions); \citet{markowitz2023spontaneous}
-Rescorla--Wagner at fitted $(\gamma, \alpha) = (0.7, 0.6)$ (K1a--c,
-$|\Delta V| \le \alpha$ holds on $48/48$ cells).
-Figure~\ref{fig:cross-paradigm} shows each paradigm's invariant
-holding on its own public data.
+modification (Fig.~\ref{fig:cross-paradigm}):
+\citet{sousa2025tmrl} distributional RL ($n = 43$ neurons);
+\citet{greenstreet2025value} value-free APE ($59/59$ sessions);
+\citet{markowitz2023spontaneous} Rescorla--Wagner ($48/48$ cells).
 
 \begin{figure*}[!htbp]
 \centering
@@ -150,7 +146,7 @@ Figure~\ref{fig:sim-fidelity} reports three behavioral observables
 across 100 seeds. Actor-critic with the annealing RBF kernel is
 the only rule reproducing all three: the seconds-scale credit
 kernel (a), repertoire-entropy decrease (b), and similarity
-narrowing (c). The analytic half-decay (Theorem~I2e) tracks the
+narrowing (c). The analytic half-decay tracks the
 empirical half-decay across the $\lambda$ sweep to within a factor
 of 1.5 (d).
 
@@ -181,15 +177,15 @@ of 1.5 (d).
 \end{subfigure}
 \caption{\textbf{Actor-critic with the annealing RBF kernel
 reproduces all three Tang observables.} (a)--(c) aggregated
-across 100 seeds. (d) Analytic half-decay (Theorem~I2e) tracks
+across 100 seeds. (d) Analytic half-decay (analytic bound) tracks
 the empirical half-decay across the $\lambda$ sweep.}
 \label{fig:sim-fidelity}
 \end{figure*}
 
 \paragraph{Case 2: spike-timing precision sandwich.}
-Theorem~B1b gives a closed-form jitter threshold
+A closed-form Lean theorem gives a closed-form jitter threshold
 $\tau_{\min}^{*}(T_{\text{obs}}, H_Q) = T_{\text{obs}} /
-\sqrt{4\pi e\,(2^{2 H_Q} - 1)}$, rule-family-independent via B1c,
+\sqrt{4\pi e\,(2^{2 H_Q} - 1)}$, rule-family-independent,
 machine-checked in Lean~4 with no empirical inputs. The Brian~2
 jitter sweep gives an empirical upper bound $\tau^{*} \approx 1$\,s.
 The gap $\tau^{*} - \tau_{\min}^{*}$ constrains the admissible
@@ -198,9 +194,9 @@ jitter to a narrow band.
 \paragraph{Case 3: Dabney--Schultz reducibility.}
 Two pure-Lean proofs sandwich the minimum distinguishing dimension
 between the distributional dopamine code of Dabney et al.\ and
-scalar TD. DS1 (upper bound) constructs a $k$-dimensional
+scalar TD. The upper bound constructs a $k$-dimensional
 scalar-TD reduction for $k \ge 2$ via a quantile-as-head map.
-DS2 (lower bound) shows no $k' < 2$ bundle produces the second
+The lower bound shows no $k' < 2$ bundle produces the second
 quantile at every state. $K_{\min} = 2$ exactly, with no empirical
 calibration.
 
