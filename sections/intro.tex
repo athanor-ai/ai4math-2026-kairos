@@ -15,8 +15,12 @@ Theorem~I2e upper, $4.4\%$ gap).}
 \end{figure*}
 
 The brain assigns credit to past actions through midbrain dopamine.
-Candidate computational rules inherit convergence guarantees from
-reinforcement-learning theorems, but those theorems are rarely
+Computational models frame this as a reinforcement-learning problem:
+a \emph{credit window} is the time interval over which a reward
+signal propagates backward to influence preceding actions, and an
+\emph{eligibility trace} is the decaying weight that controls this
+propagation. Candidate rules inherit convergence guarantees from
+RL theorems, but those theorems are rarely
 re-checked against the form in which they appear in neuroscience
 prose. The two-timescale actor--critic convergence theorem of
 \citet{kondatsitsiklis2000} has been cited for twenty-six years as
