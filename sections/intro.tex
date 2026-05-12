@@ -15,20 +15,20 @@ Theorem~I2e upper, $4.4\%$ gap).}
 \end{figure*}
 
 When an animal receives a reward, the brain must determine which
-past actions caused it --- the \emph{credit-assignment} problem.
+past actions caused it, the \emph{credit-assignment} problem.
 Computational models frame this in reinforcement-learning terms:
 a \emph{credit window} is the time over which a reward signal
 propagates backward, and an \emph{eligibility trace} is the
 decaying weight controlling this propagation.
 Candidate rules inherit convergence guarantees from RL theorems,
 but those theorems are rarely re-checked against the form in which
-they appear in neuroscience prose. The actor--critic convergence
+they appear in neuroscience prose. The actor-critic convergence
 theorem of \citet{kondatsitsiklis2000} has been cited for
 twenty-six years as the algorithmic account of dopamine-driven
 learning. The commonly-retold form drops an explicit bound on the
 feature map (Assumption~3.1(a) in the original). We show this retold
 theorem is false: under an unbounded feature map and
-Robbins--Monro step sizes, the actor iterate diverges while the
+Robbins-Monro step sizes, the actor iterate diverges while the
 critic saturates. A corrected statement under summability
 hypotheses machine-checks in Lean~4 with zero \texttt{sorry}
 and is strictly stronger than the original.
@@ -47,12 +47,12 @@ guarantee from a cited theorem.
   feature of a systems-neuroscience paradigm (TD(0) vs.\ the
   Tang et al.\ seconds-scale credit window).
 \item \textbf{Corrected theorem.} A Lean~4 proof of the
-  two-timescale actor--critic convergence theorem under
+  two-timescale actor-critic convergence theorem under
   summability hypotheses, strictly stronger than the textbook
   version.
 \item \textbf{Per-animal re-analysis.} The reported slow-vs-fast
   learner dichotomy is not bimodal in the eligibility-trace
-  parameter $c$; the distribution is continuous ($n=14$).
+  parameter $c$. The distribution is continuous ($n=14$).
 \item \textbf{Falsifiable prediction.} The analytic credit-window
   bound predicts closed-form the credit-window shift in
   genetically modified mice with reduced dopamine reuptake.

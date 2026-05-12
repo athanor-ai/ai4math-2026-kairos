@@ -8,7 +8,7 @@ The following concrete values make the original (bound-free)
 statement of \texttt{actor\_critic\_two\_timescale\_converges} false:
 feature map $\psi(s, a, i) = \uparrow s$ (coercion $\mathbb{N} \to
 \mathbb{R}$; unbounded in $s$), step sizes $\alpha_w(t) = 1/(t+1)$
-and $\alpha_\theta(t) = 1/((t+1)(1+\log(t+2)))$ (both Robbins--Monro),
+and $\alpha_\theta(t) = 1/((t+1)(1+\log(t+2)))$ (both Robbins-Monro),
 trajectory $\tau.\text{states}(t) = t$ (fresh state each step),
 rewards $\equiv 1$. Because each state is visited exactly once, the
 TD error is $\delta_k = 1$ for all $k$, and the actor accumulates
@@ -21,7 +21,7 @@ The revised theorem adds two summability hypotheses:
 Lean compiler's unused-variable linter flags three hypotheses as
 never referenced: $\gamma\lambda < 1$, $\alpha_\theta/\alpha_w \to 0$,
 and bounded rewards. All three are sufficient conditions that imply
-summability; none is necessary. The corrected theorem is therefore
+summability. None is necessary. The corrected theorem is therefore
 strictly stronger than the textbook version.
 
 \paragraph{Machine-check status.}
@@ -35,13 +35,13 @@ in the replication package.
 
 
 
-The three Robbins--Monro convergence theorems (I1a, I2a, I3a) are
+The three Robbins-Monro convergence theorems (I1a, I2a, I3a) are
 proved modulo a shared increment-summability hypothesis that encodes
 the stochastic-approximation theorem, pending upstream Mathlib
-formalization. Additionally, the Vogels--Sprekeler convergence and
+formalization. Additionally, the Vogels-Sprekeler convergence and
 stability theorems (J1a, J1c) were found to be \emph{false as stated}
-and corrected. The original actor--critic ablation target (I5a) was
-also found false; the corrected version is proved.
+and corrected. The original actor-critic ablation target (I5a) was
+also found false. The corrected version is proved.
 
 \section{Simulation Parameters}
 \label{app:sim-params}
@@ -50,7 +50,7 @@ All simulations use the Brian~2 spiking neural network simulator
 \citep{stimberg2019brian2}. The paradigm follows \citet{tang2024dynamic}:
 closed-loop optogenetic stimulation, 100\,ms time step, 55 actions
 per session. The eligibility-trace width $\lambda$ is swept over
-$[0.7, 0.99]$ in steps of 0.01; 100 seeds per $\lambda$ value.
+$[0.7, 0.99]$ in steps of 0.01, with 100 seeds per $\lambda$ value.
 The annealing RBF kernel uses $\sigma_0 = 0.5$\,s with exponential
 decay $\tau_\sigma = 10$ sessions. Full parameter tables are in the
 replication package under \texttt{data/sim\_params.json}.
@@ -60,7 +60,7 @@ replication package under \texttt{data/sim\_params.json}.
 
 Ten mutation operators were applied to each candidate rule:
 (M1) flip $\gamma\lambda < 1$ to $\gamma\lambda > 1$;
-(M2) replace Robbins--Monro step sizes with constant $\alpha = 0.1$;
+(M2) replace Robbins-Monro step sizes with constant $\alpha = 0.1$;
 (M3) remove the eligibility trace ($\lambda = 0$);
 (M4) replace the RBF kernel with a flat kernel;
 (M5) swap actor and critic step sizes;

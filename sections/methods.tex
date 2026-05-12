@@ -55,13 +55,13 @@ surfaces the witness to the theorem-proving agent with the
 instruction to revise the theorem statement. The revised statement
 is re-submitted to all six modalities. The loop terminates when
 all modalities return \texttt{closed} or when a maximum iteration
-count is reached. In the actor--critic case (I5a), the loop ran
+count is reached. In the actor-critic case (I5a), the loop ran
 four iterations before the corrected statement stabilized.
 
 \paragraph{Candidate rules.}
 We apply the fleet to four candidate dopamine credit-assignment
 rules: TD($\lambda$) with eligibility traces, action-prediction
-error (APE), Rescorla--Wagner (following \citet{markowitz2023spontaneous}),
+error (APE), Rescorla-Wagner (following \citet{markowitz2023spontaneous}),
 and time-magnitude rank-4 distributional RL (TMRL,
 \citet{sousa2025tmrl}). Each rule is encoded in Lean~4 with a
 shared substrate: state and action are finite types, rewards are

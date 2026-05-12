@@ -7,28 +7,29 @@ value of the most recent state. The TD(0) one-step-support result states that TD
 applied to a single-event trajectory leaves $V(x)$ unchanged for
 all $x \ne s$. Tang et al.\ report a seconds-scale credit window
 spanning multiple actions. TD(0)'s support is one
-$\Delta t = 100$\,ms step; the Lean proof rules out TD(0) as an
+$\Delta t = 100$\,ms step. The Lean proof rules out TD(0) as an
 account of the observed credit window. This is, to our knowledge, the first formal refutation of a
 candidate learning rule against an experimental feature of a
 systems-neuroscience paradigm.
 
-\paragraph{Corrected actor--critic theorem.}
+\paragraph{Corrected actor-critic theorem.}
 The textbook retelling of \citet{kondatsitsiklis2000} drops
 Assumption~3.1(a) (bounded feature map). We exhibit a
 counterexample: feature map $\psi(s,a,i) = s$ on state
-$\mathbb{N}$ with Robbins--Monro step sizes causes the actor
+$\mathbb{N}$ with Robbins-Monro step sizes causes the actor
 iterate to diverge. The corrected statement under summability
 hypotheses on the actor and critic increments machine-checks
-in Lean~4 with zero \texttt{sorry} (all 18 theorems closed;
-the stochastic-approximation infrastructure is included in
+in Lean~4 with zero \texttt{sorry} (all 18 theorems closed,
+with the stochastic-approximation infrastructure included in
 the self-contained artifact). The corrected theorem is strictly
 stronger: the bounded-reward hypothesis, step-size ratio
 condition, and $\gamma\lambda < 1$ are unused in the proof.
 
 
 \paragraph{Simulation fidelity.}
-Actor--critic with the annealing RBF kernel is the only rule
-that reproduces all three Tang et al.\ behavioral observables
+Actor-critic with an annealing radial-basis-function (RBF) kernel
+is the only rule that reproduces all three Tang et al.\ behavioral
+observables
 across 100 seeds. The seconds-scale credit window is reproduced
 by $\lambda \in [0.9, 0.97]$ and falsified for $\lambda < 0.7$.
 The analytic bound and empirical half-decays agree to
@@ -49,7 +50,7 @@ $n=14$ per-animal distribution (Fig.~\ref{fig:per-animal}).
 \centering
 \includegraphics[width=0.75\linewidth]{figures/fig_tang_per_animal.pdf}
 \caption{Per-animal $\tau_c$ distribution ($n=14$). The
-slow-vs-fast dichotomy is not bimodal; the distribution is
+slow-vs-fast dichotomy is not bimodal. The distribution is
 continuous. Analytic prediction (dashed) sits at the median.}
 \label{fig:per-animal}
 \end{figure*}
@@ -60,13 +61,14 @@ four rule families on public data. Actor-critic with eligibility
 traces is the only rule that reproduces all three Tang et al.\
 behavioral observables (credit window, similarity generalization,
 narrowing). TD(0) and SARSA(0) are formally distinguished from
-actor-critic by the one-step-support proof. APE and TMRL are
+actor-critic by the one-step-support proof. APE and time-magnitude distributional RL (TMRL) are
 distinguished by the credit-window width: neither reproduces
 $\tau_c \in [2.70, 2.82]$\,s.
 
 \paragraph{Falsifiable prediction.}
 The analytic credit-window bound predicts closed-form the credit-window shift in
-mice with genetically reduced dopamine reuptake (DAT-KO): the
+mice with genetically reduced dopamine-transporter (DAT) function
+(DAT-KO): the
 eligibility-trace half-decay $\tau_c \propto (1 - \gamma\lambda)^{-1}$,
 and slower dopamine clearance increases the effective $\lambda$.
 The predicted shift $\Delta\tau_c \approx 0.4$\,s is testable
@@ -75,7 +77,7 @@ with the same closed-loop behavioral paradigm.
 \paragraph{Mutation coverage.}
 Fig.~\ref{fig:mutation} reports the mutation-kill matrix across
 the four candidate rules and six verification modalities. No
-single modality catches every mutation; the union of all six
+single modality catches every mutation. The union of all six
 catches every one. The Lean proof and the simulation are
 complementary: the proof catches structural mutations (wrong
 convergence rate), the simulation catches parametric mutations
@@ -86,7 +88,7 @@ convergence rate), the simulation catches parametric mutations
 \includegraphics[width=0.6\linewidth]{figures/fig_mutation_kill_rate.pdf}
 \caption{\textbf{Mutation-kill matrix.} Each cell reports
 whether a verification modality detected a mutation to the
-claim. No single modality is sufficient; the union of all six
+claim. No single modality is sufficient. The union of all six
 achieves full coverage.}
 \label{fig:mutation}
 \end{figure*}
@@ -126,7 +128,7 @@ The infrastructure ports to three further theory families without
 modification (Fig.~\ref{fig:cross-paradigm}):
 \citet{sousa2025tmrl} distributional RL ($n = 43$ neurons);
 \citet{greenstreet2025value} value-free APE ($59/59$ sessions);
-\citet{markowitz2023spontaneous} Rescorla--Wagner ($48/48$ cells).
+\citet{markowitz2023spontaneous} Rescorla-Wagner ($48/48$ cells).
 
 \begin{figure*}[!htbp]
 \centering
@@ -134,7 +136,7 @@ modification (Fig.~\ref{fig:cross-paradigm}):
 \caption{\textbf{Each paradigm's key invariant holds on its own
 public data.} (a)~Tang per-action $\tau_c$ ($n=55$, CV $47.8\%$).
 (b)~Greenstreet lesion effect ($21/21$ positive).
-(c)~Sousa per-neuron $\gamma$ ($n=43$ DANs, median $0.904$).
+(c)~Sousa per-neuron $\gamma$ ($n=43$ dopamine neurons (DANs), median $0.904$).
 (d)~Markowitz $|\Delta V|$ vs bound ($48/48$ cells, max $0.036$).}
 \label{fig:cross-paradigm}
 \end{figure*}
@@ -189,7 +191,7 @@ jitter sweep gives an empirical upper bound $\tau^{*} \approx 1$\,s.
 The gap $\tau^{*} - \tau_{\min}^{*}$ constrains the admissible
 jitter to a narrow band.
 
-\paragraph{Case 3: Dabney--Schultz reducibility.}
+\paragraph{Case 3: Dabney-Schultz reducibility.}
 Two pure-Lean proofs sandwich the minimum distinguishing dimension
 between the distributional dopamine code of Dabney et al.\ and
 scalar TD. The upper bound constructs a $k$-dimensional

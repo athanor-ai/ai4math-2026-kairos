@@ -3,13 +3,13 @@
 \label{sec:discussion}
 
 \paragraph{The hypothesis-dropping pattern.}
-The actor--critic case is not isolated. Convergence theorems
+The actor-critic case is not isolated. Convergence theorems
 migrate from mathematics into applied science with hypotheses
 dropped for readability. The summability form of the
-actor--critic theorem is the constraint dopamine-learning
+actor-critic theorem is the constraint dopamine-learning
 models must satisfy to inherit convergence from this theorem.
-Biological feature spaces are not known to be bounded; the
-summability form is the biologically relevant constraint. The
+Biological feature spaces are not known to be bounded.
+The summability form is the biologically relevant constraint. The
 pattern applies broadly: any scientific claim that cites a
 formal theorem as authority inherits the theorem's hypotheses,
 and those hypotheses are rarely re-checked in downstream prose.
@@ -27,7 +27,7 @@ uncovered. This motivates a multi-layer verification architecture
 rather than relying on any single modality.
 
 \paragraph{The \sys{} fleet as a verification tool.}
-The fleet surfaced the actor--critic counterexample via
+The fleet surfaced the actor-critic counterexample via
 Aristotle~\citep{achim2025aristotle}, \sys{} proposed the corrected
 statement, and the Lean kernel verified it.
 The pipeline is reusable: it applies wherever a scientific claim
@@ -43,8 +43,8 @@ changes which models downstream applications can safely rely on.
 \paragraph{Limitations.}
 The main convergence theorems (TD(0), SARSA(0), TD($\lambda$))
 are proved modulo a shared increment-summability lemma that
-encodes the Robbins--Monro stochastic-approximation theorem,
-pending upstream Mathlib formalization. Two Vogels--Sprekeler
+encodes the Robbins-Monro stochastic-approximation theorem,
+pending upstream Mathlib formalization. Two Vogels-Sprekeler
 theorems were found to be false as stated and corrected.
 The simulation is calibrated on public data from one lab.
 The DAT-KO prediction has not yet been tested experimentally.
