@@ -7,8 +7,8 @@ value of the most recent state. Theorem~I1c states that TD(0)
 applied to a single-event trajectory leaves $V(x)$ unchanged for
 all $x \ne s$. Tang et al.\ report a seconds-scale credit window
 spanning multiple actions. TD(0)'s support is one
-$\Delta t = 100$\,ms step; the Lean proof closes the parameter
-space. This is, to our knowledge, the first formal refutation of a
+$\Delta t = 100$\,ms step; the Lean proof rules out TD(0) as an
+account of the observed credit window. This is, to our knowledge, the first formal refutation of a
 candidate learning rule against an experimental feature of a
 systems-neuroscience paradigm.
 
@@ -22,7 +22,8 @@ hypotheses on the actor and critic increments machine-checks
 in Lean~4 (15 of 18 theorems closed; the remaining 3
 are proved modulo a shared increment-summability hypothesis
 encoding the stochastic-approximation theorem, proved
-separately in Pythia). The corrected theorem is strictly
+separately in a foundational Lean~4 library included in the
+artifact). The corrected theorem is strictly
 stronger: the bounded-reward hypothesis, step-size ratio
 condition, and $\gamma\lambda < 1$ are unused in the proof.
 
@@ -67,11 +68,11 @@ $\tau_c \in [2.70, 2.82]$\,s.
 
 \paragraph{Falsifiable prediction.}
 Theorem~I2e predicts closed-form the credit-window shift in
-dopamine-transporter-knockdown (DAT-KO) mice: the eligibility
-trace half-decay $\tau_c \propto (1 - \gamma\lambda)^{-1}$, and
-DAT-KO increases the effective $\lambda$ by slowing dopamine
-clearance. The predicted shift $\Delta\tau_c \approx 0.4$\,s is
-testable with the same closed-loop optogenetic paradigm.
+mice with genetically reduced dopamine reuptake (DAT-KO): the
+eligibility-trace half-decay $\tau_c \propto (1 - \gamma\lambda)^{-1}$,
+and slower dopamine clearance increases the effective $\lambda$.
+The predicted shift $\Delta\tau_c \approx 0.4$\,s is testable
+with the same closed-loop behavioral paradigm.
 
 \paragraph{Mutation coverage.}
 Fig.~\ref{fig:mutation} reports the mutation-kill matrix across

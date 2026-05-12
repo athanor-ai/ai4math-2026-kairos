@@ -7,9 +7,9 @@ are cited from the mathematics literature but rarely re-checked
 in the form they are used. We show that a widely-cited
 convergence theorem for actor--critic learning is false in its
 commonly-retold form: a missing boundedness assumption allows the
-learning process to diverge. The corrected statement, with an
-explicit summability hypothesis, machine-checks in Lean~4 with
-zero unproved steps. We built \textsc{Kairos}, a multi-agent
+learning process to diverge. The corrected statement machine-checks in Lean~4 (15 of 18
+theorems fully closed; 3 depend on a stochastic-approximation
+lemma in a companion library shipped with the artifact). We built \textsc{Kairos}, a multi-agent
 system that verifies scientific claims against a formal proof,
 randomized tests, and a neural simulation calibrated on published
 data. Applied to dopamine-dependent credit assignment, \textsc{Kairos}

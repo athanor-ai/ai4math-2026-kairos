@@ -27,28 +27,16 @@ uncovered. This motivates a multi-layer verification architecture
 rather than relying on any single modality.
 
 \paragraph{The \sys{} fleet as a verification tool.}
-\sys{} is a multi-agent research fleet, not a single autonomous
-agent. The fleet surfaced the counterexample to I5a via
-\textsc{Aristotle}, the Kairos orchestrator proposed the corrected
-statement, and the Lean kernel verified it. The per-animal
-re-analysis and the pairwise distinguishability matrix were
-produced by the simulation and calibration agents. The pipeline
-is reusable: it applies wherever a scientific claim inherits a
-formal guarantee from a cited theorem. The four-paradigm
-transfer (Tang, Sousa, Greenstreet, Markowitz) demonstrates this
-portability: the same infrastructure verifies rules from four
-independent labs without modification.
+The pipeline is reusable: it applies wherever a scientific claim
+inherits a formal guarantee from a cited theorem. The four-paradigm
+transfer demonstrates this portability: the same infrastructure
+verifies rules from four independent labs without modification.
 
 \paragraph{Broader impact.}
-Dopamine-dependent credit assignment governs how the brain
-attributes outcomes to past actions. Computational models of
-this process inform drug development for addiction and
-Parkinson's disease, closed-loop brain stimulation protocols,
-and reward-based training of artificial agents. A formal
-refutation of a commonly-cited convergence guarantee (TD(0)
-as an account of the seconds-scale credit window) changes which
-models downstream applications can safely rely on. The corrected
-actor--critic theorem provides a stronger foundation.
+Computational models of credit assignment inform drug development,
+brain stimulation protocols, and reward-based training of artificial
+agents. A formal refutation of a commonly-cited convergence guarantee
+changes which models downstream applications can safely rely on.
 
 \paragraph{Limitations.}
 The main convergence theorems (TD(0), SARSA(0), TD($\lambda$))
