@@ -30,8 +30,9 @@ feature map (Assumption~3.1(a) in the original). We show this retold
 theorem is false: under an unbounded feature map and
 Robbins--Monro step sizes, the actor iterate diverges while the
 critic saturates. A corrected statement under summability
-hypotheses machine-checks in Lean~4 with zero \texttt{sorry} and
-is strictly stronger than the original.
+hypotheses machine-checks in Lean~4 (15 of 18 theorems closed;
+3 depend on a stochastic-approximation lemma in a companion library)
+and is strictly stronger than the original.
 
 To produce this result we built \sys{}, a multi-agent research
 fleet that checks natural-language scientific claims against a
@@ -42,7 +43,7 @@ guarantee from a cited theorem.
 
 \paragraph{Contributions.}
 \begin{enumerate}[leftmargin=1.5em,itemsep=0.1em]
-\item \textbf{Formal refutation.} The first machine-checked
+\item \textbf{Formal refutation.} To our knowledge, the first machine-checked
   refutation of a candidate learning rule against an experimental
   feature of a systems-neuroscience paradigm (TD(0) vs.\ the
   Tang et al.\ seconds-scale credit window).
